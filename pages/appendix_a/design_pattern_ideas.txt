@@ -1,0 +1,151 @@
+This appendix is really just a scratch-pad containing some concepts noted during the
+game study that could potentially be written up as Design Patterns in the future. They
+are listed here for one or more of the following reasons:
+  - It is an interesting tidbit of game design, but only a single reference to the concept has been found and we are looking for another instance before we can call it a pattern.
+  - I haven’t decided that the pattern is worthy of a write-up on its own, and am hoping to discern some more general pattern that incorporates the concept in the future.
+  - I plan to do a write-up, but just haven’t gotten around to doing so yet (possibly because I haven’t figured out anything intelligent to say about it).
+  - I’ve already done a write-up on it, but forgot to remove it from this list.
+
+  ; Assist : Multiple characters help out on a roll – [[:game:InSpectres]]’ Teamwork – [[:game:HeroQuest]] “Augmenting.” Most games have this Pattern.
+  ; Balancing Loop : A Balancing Loop exists in a contest if some gauge that feeds into
+the contest is altered in such a way that the gauge either gains a [[:pattern:Failure Reward]] or
+a Success Punishment. If the gauge is conflicted, this simply means that the gauge
+is altered in such a way that future contests are more likely to turn out differently
+(i.e., more likely to fail if the contest succeeded or more likely to succeed if the
+contest failed). [[:game:Capes]] rewards “Story Tokens” to the losers of conflicts. These are
+used in future contests to introduce new characters and to buy extra actions during
+conflicts, increasing their chances of winning those contests. [[:game:Dogs in the Vineyard]]
+inflicts “fallout” when a character
+  ; Cascading Gauge : A gauge value has a maximum. If more is added to it, the gauge
+“overflows” into another gauge. – [[:game:Fudge]] and [[:game:Shadowrun]] Wound Levels (the
+“more detailed method” in section 4.57) – [[:game:HeroQuest]] “Masteries.”
+Cause-First Abilities: Ability mechanics are custom designed to generate a desired
+output based on what the author feels is “realistic” given the game’s premise -
+[[:game:D&D]], [[:game:RIFTS]], [[:game:Warhammer]]. That is, a standard cause/effect relationship is
+established, where a given cause produces a given effect. Cause-First Abilities are
+in contrast to Effect-First Abilities.
+  ; Cause-First Contests : The end results of contests are determined purely by what the
+game designer considers to be “realistic” based on the contests’ various
+contributing factors without regard to the implications of those effects – D&D,
+RIFTS, [[:game:The World of Darkness]].
+  ; Confessional Mechanic : InSpectres (Also, check out //Shadows in the Fog//).
+  ; Conflicted Resource : can spend up in one fashion and spend down in another.
+  ; Damage Resistance : aka Absorption, Toughness – GURPS, Hero System 5th Edition,
+[[:game:TORG]] “Toughness,” Werewolf “soaking” damage - as opposed to damage
+ablation, per say Hero System? Or deflection per D&D (or both of these per
+GURPS)? Using “Damage” in the name makes it too specific to Hit Points, I think.
+In any case, all of these examples can probably be adequately covered in my write-up of the [[:pattern:Gauge]] Design Pattern merely as ways in which one gauge can be used to
+support or detract from another. So, this pattern will probably be pruned.
+  ; Death Spiral : a contest failure result that has the effect of making it more likely that future contests will fail – Shadowrun Wound levels.
+  ; Degree of Success Contest : a contest where a graduated scale of success or failure is
+generated rather than a simple win/lose result – [[:game:HARP]], HeroQuest, InSpectres,
+Marvel Super Heroes, [[:game:Paranoia xp]], [[:game:The Riddle of Steel]], [[:game:Rolemaster]], Shadowrun,
+Sorcerer, TORG, The World of Darkness.
+  ; Diceless : No fortune-based contests appear anywhere in game -- Amber, [[:game:Nobilis]],
+[[:game:Puppetland]].
+  ; Dice Pools : Sorcerer, The Riddle of Steel, [[:game:Universalis]], The World of Darkness,
+Shadowrun.
+  ; Drama-Based Contest : Nobilis on initiative, Puppetland on both Initiative and Conflict
+Resolution.
+  ; Effect-First Abilities : The in-game effects of abilities are designed to fit the
+mechanical output of the contest resolution rules – Hero System 5th Edition powers,
+Universalis, Dogs in the Vineyard – any trait-based game. Effect-First Abilities
+first establish the desired outcomes, or effects, of an action without regard to their
+cause. Once that is determined, an appropriate cause is made up to rationally
+explain how that outcome was actually achieved.
+  ; Effect-First Contests : The end-results of contests are narrated to fit the mechanical
+output of contests. In other words, situation is modified to fit the results of a
+contest – [[:game:My Life with Master]], Dogs in the Vineyard, InSpectres (?), [[:game:Ars Magica]]
+magic.
+  ; Fortune-Based Contest : Sorcerer conflict resolution, My Life with Master conflict
+resolution, D&D task resolution, Rolemaster task resolution.
+  ; Fortune in the Middle : [[:game:Sorcerer]], My Life with Master.
+  ; Fortune at the End : D&D, [[:game:RIFTS]].
+  ; Flaws : aka Faults – Fudge, The Riddle of Steel, Nobilis - Restrictions
+  ; Free and Clear Initiative : everyone states their actions and can modify them until
+everyone is satisfied with their declarations, then initiative is rolled (is this just
+“Drama-Based”?) - Sorcerer
+  ; Gambled Resource : [[:game:Donjon]] – Wealth, Sorcerer - Humanity (?), HeroQuest –
+Advantage Points.
+  ; GM-less : Universalis, [[:game:Capes]], Discussed as an alternate, or “advanced”, method of
+playing Amber.
+  ; Hacking : [[:game:Code of Unaris]].
+  ; Hot Potato Initiative : hand off story telling control to another player based on specific
+criteria – used in ThemeChaser on the Forge.
+  ; Karma-Based Contest : Code of Unaris conflict resolution, Nobilis conflict resolution,
+Universalis conflicts between players is a bidding process, [[:game:Call of Cthulhu]].
+initiative uses DEX from highest to lowest & roll d100 in case of tie
+  ; Logarithmic Scale : Fudge, TORG, Hero System, HeroQuest?.
+  ; Margin : The Riddle of Steel, Sorcerer, Shadowrun.
+  ; Margin Rollover : Sorcerer, Werewolf: The Apocalypse on Damage for Firearms (pg.
+227).
+  ; Megalith : Game designed with a core rulebook to be endlessly expanded with
+supplements. D&D (d20), Rolemaster, The World of Darkness, TORG.
+  ; Monolith : Game designed as single rulebook. Sorcerer, Donjon, My Life with Master.
+  ; Narrative Control Contest : a contest where players vie for the right to narrate the
+outcome of a conflict - Capes, Code of Unaris, Donjon, InSpectres, Universalis.
+  ; Never Ending Story : Any game that does not come to a definite ending point.
+  ; Nonlinearity : The game abruptly changes in some fashion – My Life with Master has
+formulas that trigger specific events; The Pool has players gamble dice from their
+pool so a character can instantly go from being powerful to being powerless.
+  ; “One Shot” Game : Great Ork Gods.
+  ; Open-Ended Roll : Rolemaster, TORG, The Riddle of Steel, [[:game:Warhammer]] – Damage.
+  ; Opposed Rolls : The Riddle of Steel – contested rolls, My Life with Master
+  ; Purchased Events : Universalis.
+  ; Race : aka Species. Similar to Class and Template patterns: D&D, HeroQuest,
+Warhammer, Rolemaster (isn’t this really just a class?).
+  ; Recycled Fortune : Use a dice roll in one fashion by looking at it one way, then use it
+for another purpose by looking at it in another – [[:game:Elfs]] uses the same roll of a dice
+pool to determine Initiative and Conflict Resolution; Sorcerer the same roll of a
+dice pool to determine Initiative and offensive side of Conflict Resolution; TORG
+uses d20 roll for both success and effect by adding different values. Warhammer –
+Attack Roll and Hit Location.
+  ; Refresh : A vital game resource is “re-fueled” periodically to ensure smooth game
+flow.
+  ; Reinforcing Loop : A Reinforcing Loop exists in a contest if some gauge that feeds
+into the contest either gains a Success Reward or a Failure Punishment. If the
+gauge is conflicted, this simply means that the gauge is altered in such a way that
+future contests are more likely to turn out with a similar result (i.e. more likely to
+succeed if the contest succeeded or more likely to fail if the contest failed).
+  ; Relationship Map : Sorcerer
+  ; Resource Refreshing : A resource is periodically “refreshed” by giving it more
+resources to allow the game to flow. It acts as a sort of “fuel.” HP in HeroQuest.
+  ; Rolled Initiative : Donjon, D&D, Rolemaster, Shadowrun.
+Randomized Resource: Rolemaster – resource for setting attributes, Great Ork Gods –
+resource for setting attributes, starting Gold Pieces in D&D.
+  ; Round Robin Initiative : D&D, HeroQuest.
+  ; Shared Gauge : a gauge whose value is shared by all characters – My Life with Master:
+Fear and Reason; InSpectres: Library Card Gym Card, Credit Card, Bank;
+HeroQuest: Hero Bands.
+  ; Shared Power : Donjon, Universalis, InSpectres, Great Ork Gods – the gods
+themselves.
+  ; Skill Defaults : If a skill is not possessed by a character, then it defaults to another
+gauge - GURPS, The Riddle of Steel, Shadowrun.
+  ; Skill Grammar : Combine various skills to arrive at a derived skill rank - Ars Magica
+spell rank system.
+  ; Skill Package : lists of skills rising at similar level – Rolemaster Skill Category Rank,
+Hero System 5th Edition – skill levels can apply to groups of skills.
+Solitary-Die Rolls: Roll a single die for contests (as opposed to Dice Pools) -- D&D,
+Rolemaster, HeroQuest.
+  ; Steamroller : a contest success result that has the effect of making it more likely that
+future contests will succeed.
+  ; Story Reward : a reward going to a player for introducing story elements. Capes
+converts “Debt” into “Story Tokens” in conflicts. Some of these story tokens go to
+the player who introduced the conflict.
+  ; Structured Sessions : Donjon, InSpectres, Paranoia xp.
+  ; Tattle : players point out mistakes of other players – Elfs has players tattle on each other
+when they don’t properly play their Idioms.
+  ; Timer : Gauge value changes based on passage of time – The Riddle of Steel “Blood
+Loss,” Rolemaster Bleeding, Nobilis natural healing.
+  ; Troupe : Having multiple characters so that you can play in more situations. GM role
+rotates from player to player on a story-by-story basis – Ars Magica.
+  ; Turnstile : Force players to make an irrevocable decision when designing some game
+tool, such as a character. Choosing Race in D&D, Priority Grids in The Riddle of
+of Steel and Shadowrun.
+  ; Unopposed Rolls : D&D, Warhammer.
+  ; Verb/Noun pairs : Ars Magica magic system, GURPS magic system.
+  ; Win/Lose Contest : a contest where players generate simple success or failure results
+for character actions. Note that some the following systems have both Degree of
+Success Contests and Win/Lose Contests: Ars Magica, Call of Cthulhu, Dungeons
+& Dragons, Elfs, Fudge, Great Ork Gods, GURPS, HARP, HeroQuest, Hero
+System 5th Edition, Nobilis, The Pool, RIFTS, TORG, Warhammer.

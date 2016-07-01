@@ -1,0 +1,4 @@
+  - [[:pattern:Anonymous Rule]]
+  - [[:pattern:Loose Coupling]]
+  - [[:pattern:Modularity]]
+  - [[:Priority Grid]] 

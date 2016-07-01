@@ -1,0 +1,122 @@
+//Universalis// (pronounced “universe-alice”) was written by Ralph Mazza and Mike
+Holmes and is published by Ramshead Publishing. It is a storytelling game that so
+defies common role-playing game design conventions that some people may balk at
+calling it a role-playing game at all. //Universalis// has no Game Master. Or, from another
+perspective, in //Universalis// all players are the Game Master. Players can create
+characters at will, introduce new plot elements, and even seize control of other players’
+characters. Nevertheless, it does incorporate what the author considers the essential
+element of role-playing: players portray the roles of characters. If you’re playing a role,
+then you’re role-playing. That concept seems pretty straightforward. And yet,
+//Universalis// breaks all the rules. At the same time, it adopts some easily recognizable
+design patterns of more traditional role-playing games.
+
+//Universalis// provides no setting and is not geared toward any particular story genre.
+Everything is left up to the players to create, with some rules governing how and when
+story elements are introduced. There are even rules that govern how you can change the
+rules if the players feel the urge.
+
+The game sets up a simple economy through the distribution and use of “coins.” Facts
+are introduced into the world by spending these coins. The more coins a player has, the
+more potential he has in introducing new facts into the story. All players start with an
+equal number of coins. More are distributed at the end of every scene. Coins are also
+earned by introducing conflicts into the plot. This basic economy keeps any one player
+from dominating the story to the exclusion of others. It ensures that everyone gets a
+voice. It also encourages players to introduce facts that are harmful to their characters
+(and others) in order to earn more coins. This design element is significant, because all
+interesting stories involve some form of contention or dispute. Any storytelling game
+lacking a Game Master needs some well crafted way to ensure conflicts arise.
+
+The game starts with a clean slate. There is no prep-work to playing //Universalis//. Play
+begins with players spending coins to set up the basic “Tenets” of the game. For
+example, one group playing the game set up the following Tenets (each costing one
+coin each): “The story is a mystery,” “It is set in cave-man times,” “No dinosaurs,”
+“The mystery involves why no buffalo have arrived this year,” “Our meat stores are
+low,” “The story is set in the prairie,” “We are tired of eating prairie dog meat,” “Our
+tribal totem is the buffalo,” “Our enemies are the Crow totem people.” In setting up
+these tenets, only the “No dinosaurs” tenet was disputed between players. One player
+wanted dinosaurs while another did not. Most players did not care. The conflict
+resolution rules handled the dispute smoothly with the “No dinosaurs” side winning the
+contest.
+
+==== RPG Design Patterns Identified ====
+[[:pattern:Attribute]] (“Importance”), [[:pattern:Currency]], [[:pattern:Dice Pool]], [[:pattern:Negotiated Contest]], [[:pattern:Rank]], [[:pattern:Resource]]
+(“Coins”), [[:pattern:Trait]]
+
+{{ :game:universalis.png}}
+==== Character Makeup ====
+All characters have the single attribute of “Importance.”
+Importance gauges how important the character is to the
+story. It has a numeric value equal to the number of coins
+spent on developing and equipping the character. To
+permanently remove a character from play, a number of
+coins must be spent equal to its Importance rating. Note
+that this does not mean the character is killed. A character
+can cease to appear in scenes without requiring his death.
+Conversely, a dead character can re-appear in later scenes as a ghost or in flashbacks.
+
+Characters also have traits. Traits are abilities and other characteristics established as
+facts through the expenditure of coins by the players. Even a character’s name is a trait
+that must be purchased. So are physical wounds.
+
+Traits are ranked. Every coin spent on a trait increases its rank by 1. This, in turn,
+increases the character’s Importance rating. So, if a character sustains a rank 2 wound
+to his thigh, his Importance rises by 2 which actually makes it harder to eliminate the
+character from the story.
+
+{{ :game:universalis2.png}}
+
+==== Conflict System ====
+Disputes between players are
+resolved in two phases:
+“Negotiation” and “Bidding.”
+During Negotiation, the players
+involved in the challenge try to
+reach some mutually agreeable
+solution. If this can be
+accomplished, play then proceeds
+without further interruption. However, if an agreement cannot be reached, the conflict
+proceeds to the Bidding process. The challenger must bid at least one coin. If he does
+not, he automatically loses the dispute. Assuming the challenger bids at least one coin,
+the bidding process opens up for all players to contribute to either side. Any previously
+established facts that are contradicted by either side can be used as additional leverage
+in the bidding process. The side with the highest final bid wins.
+
+{{ :game:universalis3.png }}
+
+If a player introduces a dispute between a component he controls and a component
+under the control of someone else, a conflict arises. Each side in the conflict builds a
+dice pool of d10s. All players can contribute to the dice pools. Dice are added to pools
+by either drawing on a character’s traits (trait rank = # of dice) and/or buying dice by
+spending coins (coins spent = # of dice). Traits can only be applied if they are
+applicable to the confrontation. Once the dice pools are established, both sides roll. All
+dice rolling 1 to 5 are considered successes, the rest are discarded. The side rolling the
+greatest number of successes wins. Both sides contribute to the description of the
+outcome. Naturally, the winner narrates first and the loser must accede to the winner’s
+previously established facts.
+
+{{ :game:universalis4.png}}
+==== Turn Order ====
+Before each scene, each player makes a secret bid to frame the next scene. The highest
+bidder gets to describe where the next scene takes place and what characters are initially
+involved. The coins bid by the winning bidder are used by him to purchase facts in
+framing the scene. The framer can describe the scene without interruption until the
+scene’s location and time are determined and at least one component (character)
+appears.
+
+{{:game:universalis5.png }}
+Turn order normally happens in a clockwise fashion from player to player. A player’s
+turn ends when he either wants it to or he can no longer afford to introduce new story
+elements due to a shortage of coins. However, any other player can “Interrupt” another
+player and seize control of the storyline by spending one coin. Play then proceeds in a
+clockwise fashion from the interrupting person after he is done.
+
+==== Reward System ====
+In any conflict involving opposed dice pools, the contest actually ends up generating
+coins for both sides of the conflict. So, while characters can lose out in disputes,
+players only benefit from them. The winner of the conflict adds up the results of all
+dice that were successes and gains a number of coins equal to that value. The loser
+gains a number of coins equal to the total number of dice he rolled in the conflict,
+including both successes and failures. Both the winner and loser buy facts detailing the
+outcome of the struggle equal to the number of coins generated by the dice. However,
+both sides then get to keep their newly generated coins to replenish their pools. So, the
+game essentially rewards conflict.

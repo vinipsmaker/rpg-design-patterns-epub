@@ -1,0 +1,147 @@
+==== Intent ====
+Provide the niche-protection benefits of the Class pattern while allowing players
+flexibility in customizing their characters along with the ability to gain new abilities as
+game play progresses.
+
+==== Also Known As ====
+Class Path, Career Path, Life Path
+
+==== Related Patterns ====
+[[:pattern:Class]], [[:pattern:Loose Coupling]], [[:pattern:Template]], [[:pattern:Traits]]
+
+==== Motivation ====
+The Class Tree pattern is closely related to the Class pattern and is based on the
+fundamental concept of classes, but adds flexibility by allowing a player to select
+multiple classes at different points in his character’s career. The basic class pattern
+allows a character to gain more than one class in some games, so in this regard the class
+tree is not unique. What distinguishes the Class Tree pattern from the basic Class
+pattern is that Class Trees allow career options to increase as play progresses. That is,
+some classes are unavailable to a character until certain conditions are met. How those
+conditions are satisfied varies from game to game, but a class that provides more benefit
+than another will generally be more difficult to attain. Since character abilities tend to
+increase as more classes are gained, the more classes a character has, the greater the
+number of classes for which he qualifies. If a character can only obtain a limited
+number of classes, though, the player is forced to make important decisions concerning
+his character’s career.
+
+When a new class is obtained, it expands the character’s in-game options through
+increased skill sets. As he gains each new class, the character changes qualitatively.
+This can breathe “new life” into a character as the player has new potential activities to
+explore. It also has the benefit of requiring the player to make a statement of what
+capabilities are important to his character, because the classes chosen must be made at
+the expense of other career options. Since the options branch and increase in number
+over time, advancement opportunities can be thought of as a tree structure.
+
+==== Example Structure ====
+
+{{ :pattern:class-tree.png }}
+
+==== Applicability ====
+The Class Tree pattern can be used in games when you want to
+  - Simplify character generation by reducing the number of decisions that need to be made by players,
+  - Increase flexibility in character design over a basic class system,
+  - Provide niche protection for different “types” of characters,
+  - Allow expansion of character skill sets as play progresses.
+If niche protection is unimportant to your game concept, you might want to consider
+using the [[:pattern:Template]] or [[:pattern:Traits]] patterns instead.
+
+==== Consequences ====
+The Class Tree pattern puts a lot of work on the game designer’s shoulders, because it
+requires him to write up detailed descriptions of a fairly large number of interesting
+classes pertinent to game play.
+
+Because of the potentially bewildering array of class options demanded by the Class
+Tree pattern, character generation for beginning players can become more complex if
+the players must assess their preferred choices from all those available. This conflicts
+with the basic Class pattern’s goal of making it easier for beginning players to get
+characters up and running quickly. For this reason it is best to keep the number of
+“starting” classes to a fairly low number and partition them from the other class options
+for easy perusal. Another option is to make the choice of class random, so beginning
+players do not need to make informed decisions. They just roll dice and take what they
+get. Gamers wanting a great deal of control over their character’s makeup are likely to
+find this solution to be unsatisfying, however.
+
+When implemented properly, the Class Tree pattern becomes part of the game’s reward
+system. Players will tend to focus their characters on attaining particular “advanced”
+classes that interest them and often get a thrill when their characters finally gain them.
+
+As play progresses in games using the Class Tree pattern, the characters’ list of in-game
+options expands as the number of abilities bestowed by their growing class list
+increases. Because of this gradual but punctuated enhancement to character
+effectiveness, players tend to find renewed interest in their characters as new play
+options become available.
+
+==== Implementation Concerns ====
+The Class Tree pattern has many of the same implementation concerns as that of the
+basic Class pattern. You will most likely need to have some limitation on the number
+of classes that a character can select, so that no character is capable of gaining all
+classes and thereby negate the niche protection features of the pattern. One way to do
+this is to have a resource which players can use to buy their classes at some pre-defined
+“cost” (see the Resource pattern).
+
+The niche protection characteristic of the Class Tree pattern is one of its most important
+features, so care must be taken to ensure that the skills of one class do not trespass too
+far into the realms of other classes. This can be difficult at times, because the sheer
+number of classes that must be written to make the Class Tree pattern sufficiently
+flexible make some overlap between classes virtually inevitable. To mitigate this
+problem, you can have different classes that overlap in their skills make-up have other
+important differences. If the Skills Rank pattern is being used, one way to do this
+would be to make the overlapping skills have significant differences in the cost needed
+to gain ranks, even though the skills themselves are similar.
+
+Since a class tree necessitates some kind of interaction between classes and must
+somehow allow advancement from one class to another, some means of identifying
+what classes are available to a character at any given time is needed. If care is not taken
+concerning how these options are presented, problems in future game expansion can
+arise. For example, if you decide to write and release a supplement of new class options
+after the game’s core rulebook is released, you may encounter difficulties in allowing
+characters to take advantage of the new classes since the core rulebook has no
+knowledge of their existence. For information on how these problems can be mitigated,
+see the [[:pattern:Loose Coupling]] pattern.
+
+==== Samples ====
+The following might be an example of a class in a game containing Caribbean-style
+pirates:
+
+----
+=== Swashbuckler ===
+These flamboyant swordsmen travel far and wide in search of adventure. Many
+stories tell of swashbucklers swinging on chandeliers to quickly rescue maidens.
+They relate how these characters leap from ship to ship to combat rivals with
+swordplay. Although many swashbucklers constantly break the laws of
+established governments, all seek merely to have a good time. Jovial to the end,
+swashbucklers often swill rum, mead, or wine when engaged in combat and
+laugh heartily at their own mistakes in battle.
+  ; **Attribute Requirements** : Agility 2, Perception 2
+  ; **Prerequisites** : The character must be able to swim (via the Swimming gift) and must have attained 8th rank in wielding Sabre, Cutlass, or Foil.
+  ; **Gifts** : Acrobatics, Dancing, Etiquette, Holding Liquor, Speaking Foreign Languages
+  ; **Skills** : Climbing Walls (+1), Disarming Opponents (+3), Florentine (+3), Inspiring Loyalty (+2), Navigating (+2), Raising Morale (+2), Seamanship (+1), Weapons Resourcefulness (+3)
+  ; **Weapon Proficiencies** : Wielding Sabre (+2), Cutlass (+2), and Foil (+2)
+----
+
+==== Known Uses ====
+[[:game:Dungeons & Dragons v.3.5]] has 11 basic classes, including Barbarian, Bard, Cleric,
+Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, and Wizard. After a character
+has advanced sufficiently in “levels” (see the Level pattern), he has the option of
+obtaining any of a number of “Prestige Classes.” The “Dungeon Master’s Guide” lists
+only 16 prestige classes including Archmage, Blackguard, and Hierophant, but there are
+numerous D&D supplements that provide a host of others. Each prestige class provides
+a list of “Requirements” needed to attain the class. The basic rules allow characters to
+progress based on the total number of levels of all classes obtained. A 10th level
+fighter/7th level wizard is treated as a 17th level character overall. So, he would not
+progress to his next level until earning the experience necessary for an 18th level
+character. So, the system discourages having any character branch out into too many
+classes.
+
+[[:game:Warhammer Fantasy Role Play]] has 4 broad class categories of Warriors, Rangers,
+Rogues, and Academics. Once a player selects one of these categories, he rolls
+randomly to determine which of the “Basic Careers” associated with that broad class
+that his character starts with. The game has 63 “Basic Careers” and 36 “Advanced
+Careers,” most of which have “Career Exits” that specify which careers are available as
+advancement opportunities to a character that currently has that career. When a player
+decides to have his character take a career exit, he must spend an appropriate amount of
+experience points to do so. When he does, his previous career is over and his new
+potential “Career Exits” are those associated with his new career. A new career gains
+him new options but loses old ones. (Perhaps this would be better described as a “Class
+Vine” rather than a “Class Tree.”) Each career provides a list of skills and pre-defined
+limits on how far a character can progress in his abilities while practicing the career.

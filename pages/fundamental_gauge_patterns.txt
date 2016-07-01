@@ -1,0 +1,5 @@
+  - [[:pattern:Conflicted Gauge]]
+  - [[:pattern:Currency]]
+  - [[:pattern:Gauge]]
+  - [[:pattern:Rank]]
+  - [[:pattern:Resource]] 

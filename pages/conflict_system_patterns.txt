@@ -1,0 +1,5 @@
+  - [[:pattern:Contest Tree]]
+  - [[:pattern:Generalized Contest]]
+  - [[:pattern:Last Man Standing]]
+  - [[:pattern:Negotiated Contest]]
+  - [[:pattern:Safety Valve]]   

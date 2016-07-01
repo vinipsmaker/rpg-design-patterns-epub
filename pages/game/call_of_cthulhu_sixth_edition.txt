@@ -1,0 +1,118 @@
+**Call of Cthulhu** is a classic game written by Sandy Peterson and Lynn Wilis and is
+published by Chaosium, Inc. It evokes the alien, macabre terror of H. P. Lovecraft, who
+is a true giant of the horror genre. Lovecraft’s bizarre genius concocted a diverse
+mythology of ancient beings that supposedly traveled to Earth from far off galaxies
+where the very laws of physics and geometry differ radically from our own. The
+greatest of these colossi ruled the cosmos for billions of years, veritable gods in their
+potency and otherworldliness. The mere sight of such a creature can cost a man his
+sanity, if not his soul. Their longtime slumber is the only thing keeping these eldritch
+monsters from devouring the Earth, and various dark cults throughout the world seek
+their waking. Mankind might win
+small skirmishes to stave off the
+onslaught, but Earth’s eventual pitiable
+fall is essentially inevitable.
+
+{{ :game:call-of-cthulhu.png}}
+The game gets its name from one of
+Lovecraft’s short stories, The Call of
+Cthulhu, which the rulebook includes
+to ensure anyone playing the game can
+taste what it aims to achieve. To
+reproduce the feeling of utter
+hopelessness in Lovecraft’s tales, Call
+of Cthulhu describes most of the
+various aliens in terms that are well
+beyond the capabilities of the
+beyond the capabilities of the
+characters to handle. The weakest of them may be slain with great preparation and
+difficulty, but don’t count on it. If you go into a Cthulhu adventure seeking to hunt
+down and kill the game’s many-tentacled demons, your characters are going to live
+short, chilling lives.
+
+==== RPG Design Patterns Identified ====
+[[:pattern:Faction]] (Cthulhu vs. everyone else), [[:pattern:Game Master]], [[:pattern:Generalized Contest]], [[:pattern:Hit Points]],
+[[:pattern:Last Man Standing]], [[:pattern:Random Attribute]], [[:pattern:Rank]] (Skill percentages), [[:pattern:Resource]] (Magic
+Points, Sanity Points), [[:pattern:Skill]]
+
+==== Character Makeup ====
+
+{{ :game:call-of-cthulhu2.png}}
+Characters (“Investigators”) have 9 attributes
+whose values are generated randomly. These
+attributes are: “Strength” (STR), “Constitution”
+(CON), “Size” (SIZ), “Intelligence” (INT),
+“Power” (POW), “Dexterity” (DEX),
+“Appearance” (APP), “Education” (EDU), and
+“Sanity” (SAN). They also have three major
+resource pools from which to draw: Hit Points,
+Magic Points, and Sanity Points. These
+resources are determined by various formulae
+based on the attributes. Each character is
+assigned an “Occupation,” such as “Antiquarian,” “Dilettante,” or “Professor.” Each
+occupation is associated with a set of skills in which the player distributes a number of
+“Skill Points” whose quantity is determined by the character’s Education attribute. The
+resulting values essentially set the percentage chance that a character has in succeeding
+at each skill.
+
+{{:game:call-of-cthulhu3.png }}
+The “Cthulhu Mythos” skill is special. Gaining
+ranks this skill lowers the character’s Sanity
+Point maximum. So, the more a character learns
+about the true and terrifying nature of the
+universe, the less stable he becomes. Sanity
+Points may
+Points may
+vary
+anywhere
+from zero to
+the modified maximum. But if it ever drops to
+zero, the character goes completely insane. The
+mere sight of a Lovecraftian horror usually costs a
+character a portion of his sanity.
+
+{{ :game:call-of-cthulhu4.png}}
+
+==== Conflict System ====
+
+Each skill in Call of Cthulhu has a rank, which sets
+the percentage chance of the skill succeeding. To
+determine success, d100 is rolled. If the resulting
+value is less than or equal to the skill value, the
+skill succeeds, although a roll of 00 always fails. If
+the conflict involved weapons and combat, a successful roll indicates that damage is
+delivered to the target by rolling dice appropriate to the weapon used. If the target has
+armor, the damage is reduced by an amount depending on the armor’s type.
+
+To resolve tasks involving attributes
+(“Characteristics”), players consult a table
+that pits one attribute against its opposing
+attribute. The table provides a percentage
+chance of the action succeeding.
+
+{{ :game:call-of-cthulhu5.png}}
+
+==== Turn Order ====
+Call of Cthulhu uses a karma-based
+initiative system in which character actions
+are ordered according to DEX, going from
+highest to lowest. In the case of a tie, the
+system becomes fortune-based with each
+player rolling d100 and going in order from
+lowest roll to highest.
+
+==== Reward System ====
+
+{{:game:call-of-cthulhu6.png }}
+The first time a character successfully uses a skill
+in a dangerous situation on an adventure, he gets to
+place a check mark next to the skill on his sheet.
+At the end of an adventure, the player then
+determines if any of the check marked skills
+improve. To do this, the player rolls d100. If the
+result is greater than the skill’s current rank, the
+player adds 1d10 to the rank of that skill. Thus, skills in which a character is a novice
+improve easily, but those in which he is expert rarely improve with use.
+
+If the resulting percentage increase raises a skill above the 90% mark, the player gets to
+add 2d6 points to the character’s Sanity Points. Joy of joys! Your character gets to stay
+sane a little longer!

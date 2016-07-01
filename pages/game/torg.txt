@@ -1,0 +1,139 @@
+//Torg// was developed by Greg Gorden and published by West End Games. It is a game set
+in a multi-dimensional universe in which the various “Realities,” or “cosms”
+(dimensions, universes), are at war. Specifically, modern day Earth has been invaded by
+no less than seven alternate realities. The various cosms battle over the most precious
+resource in existence: “Possibility energy.” Possibility energy allows the possessor to
+alter and expand the limits of reality and to shape it to his will. Using various rituals and
+arcane artifacts, a knowledgeable person can tap into the possibility energy of another
+world and draw it to himself through an inter-dimensional vortex. The combined energy
+of a newly discovered, untapped world such as Earth is enough to elevate oneself to the
+status of a god. Anyone gaining this level of power earns the title of Torg. One being
+aspiring to do so, known as The Gaunt Man, has discovered Earth’s potential and has
+bent all of his energies on sucking the Possibilities out of Earth to become Torg.
+
+//Torg// is designed to support cinematic play in realities of various magical, spiritual,
+social, and technological levels. Earth’s reality has been fractured by the intrusion of the
+invaders’ realities. So, some portions of the planet have devolved to pre-historic
+technology levels, other areas have experienced an infusion of magic that surpasses
+modern technology in effectiveness, and in yet others technology achieves the level of
+science fiction.
+
+==== RPG Design Patterns Identified ====
+[[:pattern:Game Master]], [[:pattern:Generalized Contest]], [[:pattern:Hit Points]],
+[[:pattern:Last Man Standing]], [[:pattern:Point Spend Attribute]], [[:pattern:Rank]],
+[[:pattern:Resource]], [[:pattern:Safety Valve]] (spending Possibilities),
+[[:pattern:Template]], [[:pattern:Trauma Gauge]] (“Wound Levels”)
+
+{{ :game:torg.png}}
+==== Character Makeup ====
+Character generation starts with selecting a
+template from a fairly broad list of character
+archetypes. These are then customized by the
+player for his own use by selecting a number of
+additional skills and spending skill points (“Adds”)
+on them. No more than three points can be spent
+on any one skill. Each template is required to have
+one signature skill (“Tag Skill”) which must begin with three Adds.
+
+//Torg// characters have seven primary attributes of “Dexterity,” “Strength,” “Toughness,”
+“Perception,” “Mind,” “Charisma,” and “Spirit.” In order to deal with the extremely
+wide ranges of capabilities inherent in the different genres the game attempts to handle,
+the attribute values are gauged on a logarithmic rather than a linear scale. The scale they
+chose has an attribute’s capability increase by a factor of 10 for every 5 point increase.
+So, a character with a Strength of 11 can lift ten times the weight as a character with a
+Strength of 6. The normal Earth maximum on their scale for all attributes is a value of
+13. Characters also have four “Axiomatic” attributes of Magical, Spiritual, Social, and
+Technology. These are fixed to equal the values of the reality from which the character
+originates.
+
+Characters have a Possibility resource. Possibility points are spent on raising skill and
+attribute values and can be used to alter the outcomes of conflicts.
+
+Finally, characters have a “Shock Damage” resource that acts as a form of hit points and
+“Wounds” that acts as a trauma gauge.
+
+{{ :game:torg2.png}}
+==== Conflict System ====
+Before contests arise, players are
+dealt a number of cards from the
+game’s “Drama Deck.” Each
+card lists some special bonus that
+the player can use in conflicts.
+“Add +3 to the value of
+Dexterity, Strength, or
+Toughness or a related skill” and
+“May be played as an additional
+Possibility” are two such
+examples.
+
+{{ :game:torg3.png }}
+
+Whenever a contest arises, the participants state what skills their characters are using in
+the task. A d20 is then rolled by the aggressor and the result is noted. If a 10 or 20
+comes up on the die, the player gets to roll again, adding the new result to the previous
+one. The player continues accumulating more and more success in an open ended
+fashion as long as 10 or 20 is rolled. The player then has the option of spending a point
+of Possibility to add another die roll to this total. If he does so, any roll of less than 10
+counts as 10 before being added to the running total. This additional roll is also open-
+ended, so if a 10 or 20 is rolled, the player keeps accumulating more success. (Note:
+Torg characters are actually segregated into “Possibility-Rated” characters and
+“Ordinaries”. Only Possibility-Rated characters, including all player characters, have
+Possibility points to spend on re-rolls. Ordinaries do not.)
+
+Once this process is complete, the accumulated result is used on a table lookup to
+determine the characters “bonus number.” The character’s rank in whatever skill he is
+using is added to this bonus number to determine his overall “action total.” This may be
+modified by playing any number of pertinent Drama Cards. The action total is then
+compared to a “difficulty number.” If the action total is greater than or equal to the
+difficulty number, the action succeeds. Some actions, such as combat attacks, require the
+same roll to be used in determining an “effect total” by adding different numbers
+(depending on the action) to the bonus number. In this way, a single die roll can be used
+to determine whether a blow lands and how much damage is delivered.
+
+A character’s Shock damage increases every time he is hit, depending on the amount of
+damage delivered. If the total damage equals or exceeds the character’s Toughness, he
+falls unconscious. Damage is also gauged in the form of “Wound Levels.” A Wound is
+more serious than Shock damage. There are four levels (five if you count
+“Unwounded”): “Wound,” “Heavy Wound,” “Mortal Wound,” and “Dead.” Characters
+also have “K” and “O” attributes, which are either true or false (circled or uncircled).
+Some wounds deliver Ks and some deliver Os in addition to Shock Damage and Wound
+Damage. If a character takes both a K and an O, he is Knocked Out. Given all of this, a
+blow could result in 2 Wnd K 5, which indicates the character sustains 2 Wounds, a K,
+and five points of Shock Damage. Once the damaging effects are determined, the target
+may spend Possibility points to reduce the inflicted damage.
+
+{{ :game:torg4.png}}
+==== Turn Order ====
+Game flow in Torg is broken down into Acts and
+Scenes. Scenes are categorized as either Standard or
+Dramatic. In Standard scenes, action is fast-paced
+and the Drama Deck cards give an advantage to the
+players. In
+Dramatic scenes,
+action is more drawn out and the villains have the
+advantage. Initiative for any given Scene is determined
+by first drawing a card from the Drama Deck. Each
+card indicates whether the hero or villains go first. All
+actions of the initiative winners go before those of the
+losers. The order in which the actions of each side are
+taken are determined by the Dexterity of the various participants, going from highest to
+lowest.
+
+{{ :game:torg5.png }}
+
+When the initiative card is drawn from the deck, the card will also specify an “Approved
+Action.” If a player successfully performs an act falling into the categories listed as
+approved for that round, he gets to draw another card from the Drama Deck to replenish
+his hand. Otherwise, he doesn’t get to draw until the end of the Scene.
+
+{{ :game:torg6.png}}
+==== Reward System ====
+Torg breaks adventures up into Acts. At the
+end of each act, the Game Master awards
+each player zero to three Possibilities to add
+to his character’s pool. At the end of an
+adventure, the Game Master awards another 6
+to 12 Possibilities. These can be saved for
+later use on improving success in conflicts or
+can be spent immediately to raise attribute
+values and skill ranks.

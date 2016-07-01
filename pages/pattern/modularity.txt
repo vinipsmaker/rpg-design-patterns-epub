@@ -1,0 +1,102 @@
+==== Intent ====
+Boil each rule down to a single basic concern that it addresses. In other words, separate
+each concern into its own separate rule and give each its own unique name.
+
+==== Also Known As ====
+Don’t Repeat Yourself (DRY)
+
+==== Related Patterns ====
+[[:pattern:Anonymous Rule]], [[:pattern:Loose Coupling]]
+
+==== Motivation ====
+The Modularity design pattern splits different concepts out into separate rules. It is the
+antithesis of the Anonymous Rule design pattern. Its goal is to clarify the game’s
+overall structure by giving each individual piece its own label. A game designer can
+thereby clearly see the components that make up his game. This may give the game
+designer insight into useful abstractions combining many disparate rules into fewer
+more general ones. In this way, a game can often be simplified and actually //reduce// its
+overall rule count. Modularity also frequently shortens the game text by allowing
+complex rules containing similar concepts to be broken down into simpler rules that
+merely reference common concerns. By splitting out a common issue into its own
+separate block, the concern can simply be referenced rather than have its text repeated
+in many places. This makes a game easier to modify and maintain, because an
+alteration to a concept requires a change in only one place. Finally, modular games are
+often easier to understand because the reader does not have to expend much effort in
+mentally identifying and separating important concepts into discrete elements. That
+work has already been done for him.
+
+==== Applicability ====
+The Modularity design pattern applies to any game where reducing overall complexity
+is an important concern. If layout and smooth text flow is a higher priority, you may
+want to consider the Anonymous Rule design pattern instead.
+
+==== Consequences ====
+Perfect modularity can result in an excessive number of individual text blocks unless
+careful attention is given to identifying useful abstractions combining similar issues into
+fewer more general rules.
+
+==== Implementation Concerns ====
+You can go a long way in modularizing your game by using the DRY principle of
+software development. Anytime you find yourself repeating something you’ve already
+written, split it out under its own heading and give it a name.
+
+==== Samples ====
+A game providing descriptions of various monster types might include the following
+description:
+
+----
+=== Zombie ===
+A zombie is a member of the walking dead, a soulless, undead human that has risen
+from its grave to shamble aimlessly through the night. Its eyes always gaze
+downward with a glassy blank expression. This unconcerned stare is perhaps its
+most terrifying aspect, as the monster will rend and tear the flesh of anyone
+interfering with its nightly patrol without so much as an upward glance to indicate
+an awareness of its victim. Even as a zombie is disemboweled and dismembered,
+its stony countenance never wavers.
+
+//Like all undead, zombies are Immune to Mental Spells, are Susceptible to Holy
+Water, and have an Aversion to Sunlight.//
+----
+
+In this account, the first paragraph is mere description. There is nothing in the text that
+affects the mechanics of the game. However, the second paragraph (italicized) is a rule
+that would greatly benefit from being split out:
+
+----
+=== Zombie ===
+A zombie is a member of the walking dead, a soulless, undead human that has risen
+from its grave to shamble aimlessly through the night. Its eyes always gaze
+downward with a glassy blank expression. This unconcerned stare is perhaps its
+most terrifying aspect, as the monster will rend and tear the flesh of anyone
+interfering with its nightly patrol without so much as an upward glance to indicate
+an awareness of its victim. Even as a zombie is disemboweled and dismembered,
+its stony countenance never wavers. Zombies have the standard strengths and
+weaknesses possessed by all undead (see **The Perks and Banes of Undeath**).
+
+=== The Perks and Banes of Undeath ===
+All members of the living dead are Immune to Mental Spells, are Susceptible to
+Holy Water, and have an Aversion to Sunlight.
+----
+
+Not only does this technique partition the resistances and vulnerabilities of undeath
+from the description of Zombie, it also makes the rule conveniently available for the
+description of other undead creatures. If we provide many such descriptions, this
+separation will quickly save space and, at the same time, make the game design more
+obvious to the reader. Finally, if we later decide to make all undead afraid of holy
+symbols, we can easily make this change to all undead by modifying the common rule.
+
+==== Known Uses ====
+[[:game:Dungeons & Dragons v.3.5]] has a section in the Dungeon Master’s Guide called the
+“Condition Summary.” This section is essentially a list of definitions for various forms
+of trauma that can affect a character. Among these are rules of “Blinded,” “Deafened,”
+“Dying,” “Exhausted,” “Sickened,” “Stunned,” etc. By separating these out, these
+various afflictions can be used throughout the game in a clear, succinct way.
+
+[[:game:Warhammer Fantasy Role Play]] has descriptions of many monsters in their Bestiary.
+In these descriptions, monsters have various forms of attack. Rather than endlessly
+repeat them for every monster description, the game has categories of various attack
+forms. Some of these are “claw,” “kick/stomp,” “gore,” “constriction,” etc. In the
+monster descriptions, these words are italicized to indicate that the words have special
+meaning. The definitions of the terms are split out into a separate section to which all
+monster descriptions refer. By doing this, the definitions can be clearly spelled out
+without needless repetition.

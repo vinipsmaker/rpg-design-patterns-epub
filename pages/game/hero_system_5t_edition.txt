@@ -1,0 +1,114 @@
+//Hero System 5<sup>th</sup> Edition// was written by Steven S. Long and is published by DOJ, Inc. It
+is the descendant of //Champions//, a super-heroes RPG first published in 1981 by Hero
+Games. Touting itself as “The Ultimate Gamer’s Toolkit,” Hero System is designed to
+be appropriate for “ordinary” heroic adventures as well as super-hero style play. At
+first glance, the daunting 372 page manual might be mistaken for a textbook rather than
+a game book. Its pages contain a vast array of pre-defined abilities that can be tailored
+to a player’s character concept. The system allows characters to be highly customized,
+allowing each to have unique abilities, equipment, and powers.
+
+==== RPG Design Patterns Identified ====
+
+[[:pattern:Flaw]] (“Disadvantages”), [[:pattern:Game Master]], [[:pattern:Generalized Contest]], [[:pattern:Gift]] (“Talents” and
+“Perks”), [[:pattern:Hit Points]] (“Body”), [[:pattern:Point Spend Attribute]], [[:pattern:Rank]], [[:pattern:Skill]] (“Skills” and
+“Powers”), [[:pattern:Success Reward]] (“Character Points”), [[:pattern:Template]]
+
+==== Character Makeup ====
+Hero characters have eight primary attributes (“Characteristics”): “Strength,”
+“Dexterity,” “Constitution,” “Body,” “Intelligence,” “Ego,” “Presence,” and
+“Comeliness.” Their values are specified by having players spend “Character Points”
+and the costs vary from attribute to attribute. The genre of game, whether heroic or
+super-heroic, determines the number of points distributed to players to generate their
+characters. After setting the primary attribute values, players derive six more attributes
+from the primary ones via various formulae. These derived attributes are: “Physical
+Defense,” “Energy Defense,” “Speed,” “Recovery,” “Endurance,” and “Stun.”
+
+Body and “Stun” are both hit points attributes. Characters fall unconscious when Stun
+drops to zero. They start dying when Body falls to 0 and truly die when it drops to -10.
+Characters also possess two additional derived attributes known as “Combat Value” and
+“Ego Combat Value,” which gauge character effectiveness in combat and mental
+actions, respectively. Combat Value is further adjusted by various skill ranks,
+equipment, and other factors to produce both an “Offensive Combat Value” and a
+“Defensive Combat Value.”
+
+{{ :game:hero-system.png}}
+Players purchase skills (Skills and Powers)
+and gifts (Perks and Talents) for their
+characters using Character Points.
+Character Points also buy skill ranks at costs
+that vary from skill to skill. Players can
+earn additional Character Points by
+accepting flaws (Disadvantages) for their
+characters.
+
+Powers are particularly notable, in that they
+are skills that essentially define mechanical
+effects without specifying “special effects.” For example, the game provides an
+“Energy Blast” power. A player may customize this power to fit his character concept
+by describing it as the power to cast thundering lightning bolts from his fingertips,
+summon blazing spheres of greenish flames from the heavens, or shoot laser beams
+from a blaster. Essentially, all Energy Blast powers have the same mechanical effect.
+Their differences mainly involve presentation. So, players craft powers to match their
+character concepts rather than the other way around. Despite their flexibility, hero
+powers qualify as “skills” rather than “traits” because the various powers are pre-
+defined, even though their superficial appearance is entirely in the players’ control.
+
+{{ :game:hero-system2.png}}
+==== Conflict System ====
+To perform a combat attack, a
+player rolls 3d6 and sums the
+result. A blow lands if the sum
+is less than or equal to a value
+determined by both the
+attacker’s Offensive Combat
+Value and the defender’s
+Defensive Combat Value (11 +
+OCV – DCV). Mental attacks
+use a similar technique,
+replacing Ego Combat Value
+for “Combat Value.
+
+If an attack lands, it inflicts
+damage on the target.
+Depending on the nature of the
+attack, the damage may be subtracted from either Stun or Body (or both). Stun attacks
+can knock an opponent out, but cannot kill. Body attacks can kill. Physical Defenses
+(such as armor) and Energy Defenses (such as force fields) can modify the amount of
+damage actually sustained by a character from an attack.
+
+{{ :game:hero-system3.png}}
+
+==== Turn Order ====
+Combat is segmented into 12 second “turns.”
+A character’s Speed attribute determines
+number and timing of his combat actions every
+turn. If a character has a 3 Speed, he gets three
+actions (“Phases”) every turn. The timing of
+those actions is determined by a table lookup.
+For example, a character with a 3 Speed
+performs his actions on 4th, 8th, and 12th second
+of every turn since that is what the table
+specifies. For characters acting on the same
+second, the action order goes from highest
+Dexterity to lowest.
+
+Some actions count as “Full Moves” while others count as “Half Moves.” In general, a
+character can perform either one Full Move or two Half Moves during each combat
+“Phase.” If a character performs a half
+move before an attack, then the attack
+counts as a half move. But, a character
+cannot perform an attack and then enact
+a half move. Once a character makes an
+attack, his Phase is over.
+
+{{:game:hero-system4.png }}
+==== Reward System ====
+The game master rewards players by
+giving their characters experience
+points, which are spent just like
+Character Points. Each session is
+generally worth at least 1 experience
+point, but players can earn more by
+being clever, role-playing well, solving
+a mystery, etc.
+

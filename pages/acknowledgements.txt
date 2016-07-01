@@ -1,0 +1,46 @@
+Before writing this book, I had been designing, writing, tweaking, and rewriting my own role-playing
+game, Legendary Quest, for over 20 years. In that time, I created seven editions of the game to which
+only my close friends and I had access. The experience gave me great practice in designing games and
+taught me much about how a role-playing game should work. Because I had approached my designs
+from the vantage point of making the best game possible for my gaming group, I didn’t look too far afield
+for how other games approached similar problems. My friends and I created designs that suited our
+interests and we were happy with the results. And, in fact, we should have been pleased. Through our
+efforts, Legendary Quest evolved into a fine game. I would like to thank all the LQ play-testers over the
+years in helping me in my various game designs. I would especially like to thank Matt Ault, Dave
+Bailey, James Bockmon, Mike Brown, Denys Carrico-Bockmon, Mark Chester, Leroy Hills, Melissa
+Kirk, Mike Patrick, Adam Reid, and Paul White for all of their support and many design ideas over the
+years.
+
+When I made Legendary Quest available on the Internet, everything changed. A fan base sprouted up
+that began providing feedback. And, I started interacting with other game authors, primarily on The
+Forge website (http://www.indie-rpgs.com). To my delight, I discovered that I still had a lot to learn
+about game design. Several years ago, the Forge was a forum devoted to exploring RPG Game Theory
+and creating well-crafted independent role-playing games. To a game designer, The Forge was candy
+store, amusement park, and Christmas all wrapped up into one. It kept me enthralled for years, although
+my role was primarily been that of a silent lurker. Only rarely did I contribute back, and then only when I
+thought I could provide some insight that others had overlooked. That didn’t happen often.
+Unfortunately, not long after I put up an initial draft of this book on The Forge, the administrators made
+the decision to de-emphasize the development of RPG Game Theory on their site and focus instead on
+crafting new games. They locked the forum discussing RPG Theory, so visitors could read the
+discussions that had taken place earlier, but prevented anyone from making new posts. At that point, I
+largely lost interest in the site, although I still drop by from time to time.
+
+Even so, I have always wanted to contribute something back to the community. To date, this book is my
+best attempt at doing that. So, even though they do not know me very well (if at all), I would like to thank
+the following people on The Forge for the inspiration they have given me over the years: Vincent Baker,
+Paul Czege, Ron Edwards, John Kim, Timothy Kleinert, Chris Lehrich, Tony Lower-Basch, Ralph
+Mazza, Clinton R. Nixon, Jared A. Sorensen, and M. J. Young.
+
+There is one other Forge-ite to which I would like to express my deepest gratitude. Mike Holmes took
+me under his wing early on in my game studies. He has provided me with a tremendous amount of
+constructive criticism on my designs and has patiently tutored me on modern thoughts in game design
+theory. I have never encountered anyone with as much sheer volume of knowledge about various role-
+playing games as Mike. This work would be far less useful without his insight.
+
+Finally, I would also like to give special thanks to Mike Cantrell for hosting and administering the LQ
+Design Forums and for editing this book. Many people pointed out numerous flaws in an early draft of
+RPG Design Patterns. So, it was obvious that I was in great need of Mike’s technical writing expertise. I
+believe the book to be greatly enhanced by his efforts.
+
+-- John Kirk\\
+(9/13/2009)

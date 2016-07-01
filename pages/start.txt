@@ -1,0 +1,29 @@
+===== Design Patterns of Successful Role-Playing Games =====
+
+{{ :rpg-design-patterns-cover.png }}
+
+a book by\\
+Whitson John Kirk III\\
+Edited by\\
+Michael R. Cantrell\\
+Foreword by\\
+Mike Holmes\\
+9 / 13 / 2009
+
+Copyright © 2006 by Whitson John Kirk III. Some rights reserved. If you make changes, add your name
+to the Contributor’s section on the cover. Please do not alter the Dedication, Forward, or
+Acknowledgements sections.
+
+[[Dedication]]
+
+[[Foreword]]
+
+[[Table of contents]]
+
+[[Alphabetic index of patterns]]
+
+[[Alphabetic index of referenced games]]
+
+Wiki edition by [[http://felix.plesoianu.ro/|Felix Pleșoianu]]
+
+[[http://legendaryquest.netfirms.com/books/Patterns2.zip|Download the PDF]] directly from [[http://www.legendaryquest.com/|www.legendaryquest.com]].

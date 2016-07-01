@@ -1,0 +1,4 @@
+  - [[:pattern:Attendance Reward]]
+  - [[:pattern:Failure Reward]]
+  - [[:pattern:Narrative Reward]]
+  - [[:pattern:Success Reward]] 

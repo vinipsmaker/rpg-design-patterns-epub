@@ -1,0 +1,221 @@
+==== Intent ====
+Differentiate characters by segregating them into different categories that define how
+in-game events affect them physically. Characters can also be distinguished by limiting
+their abilities based on these same categories.
+
+==== Also Known As ====
+Not applicable.
+
+==== Related Patterns ====
+[[:pattern:Faction]], [[:pattern:Idiom]]
+
+==== Motivation ====
+The goals of Alignment are easy to misconstrue. This is because many games present
+alignment as a common characteristic that specifies how a player should portray his
+character. Alignments are usually specified with connotive words rather than numbers,
+the most common of which are “Good” and “Evil.” To extend the field of aligned
+behaviors to a wider range of possibilities, many games specify a number of alignment
+characteristics, each of which must be assigned values. In addition to “Good” and
+“Evil,” a game might require a player to decide between “Lawful” and “Chaotic” or
+“Social” and “Antisocial,” etc.
+
+Because of these moralistic names, it is easy to come to the conclusion that a game
+having alignments is actually trying to persuade players to portray their characters in
+certain ways. The text might even say this. However, the Alignment pattern does
+nothing to promote role-play in any mechanical way (such as by rewarding players for
+doing so). Thus, the pattern cannot really be described as a mechanical means of
+promoting role-play. (Note that the Faction pattern, which is similar to the Alignment
+pattern, //does// provide rewards for role-playing characters according to specified belief
+systems. Alignment and Faction are often used together, so it is easy to confuse the
+two.)
+
+The Alignment pattern //is// useful, though. One must simply recognize that the actual
+design goal which Alignment satisfies has nothing to do with promoting role-play.
+Rather, its purpose is to differentiate characters by assigning various physical effects to
+some in-game events based on alignment categories. It can also be used to distinguish
+characters by constraining character abilities based on their alignment category. A
+character’s alignment might therefore limit the character to a subset of a game’s career
+choices. For example, a player wishing to play a “White Witch” might be required to
+select a Good alignment. Selecting this option might simultaneously preclude the
+character from ever becoming a “Black Witch.” A game might even view Good and
+Evil as physical properties that can be detected and manipulated. Thus, a “White
+Witch” might have specialized skills that have different effects based on the target’s
+alignment. She might get a palpable sensation whenever evil approached, for example.
+Or, she might be able to summon a “Radiance of Goodness” to aid her Good
+companions, hinder her Evil foes, or both.
+
+==== Applicability ====
+As a role-playing aid that gives guidance to players concerning the manner in which
+they should portray their characters, the Alignment pattern does a poor job. Other
+patterns, such as the Faction and Idiom patterns satisfy this goal to a far better degree.
+It is highly recommended that you understand these patterns before deciding to use the
+Alignment pattern as a role-playing guide.
+
+As a means of differentiating characters based on pre-specified categories, the
+Alignment pattern excels. Use the Alignment pattern if your goals include:
+  - A desire to define a fixed set of broad categories into which each character is placed.
+  - A desire to have in-game effects vary from one character to another based on his assigned category.
+  - A desire to limit player options based on the category to which a character is assigned.
+Note that goals 1 and 3 can be satisfied by the Class design pattern. If you do not want
+to vary the in-game effects of character actions based on a character’s alignment, you
+might want to consider that pattern instead.
+
+The Alignment pattern tends to work well with the [[:pattern:Skill]] and [[:pattern:Gift]] patterns, but is less
+harmonious with the [[:pattern:Trait]] pattern. The reason is simple. If you want to vary the in-game effects of various actions based on alignment, you need to specify exactly //how//
+those effects vary. Pre-defined skills and gifts provide this opportunity in that each
+requires its own description. The traits pattern, on the other hand, demands a more
+general rule describing how each player-specified trait interacts with the various
+alignments. It is telling that none of the games analyzed in researching this book used
+both the Trait and Alignment patterns together.
+
+The Alignment pattern mimics the Faction pattern in structure, in that both require
+characters to be placed in groups. Consequently, many games combine the Alignment
+and Faction patterns. Player options are constrained by a character’s alignment, in-game effects vary based on the alignment, and the alignment serves as a faction
+promoting conflict between the different categories.
+
+==== Consequences ====
+The Alignment pattern essentially adds a characteristic to each character that interacts
+with the game-world reality as if it were a physical property. It can often be detected,
+leveraged, and manipulated as in various ways by game rules specifically designed to
+do so. Although alignments are often identified by moralistic words such as “Good,”
+“Lawful,” “Evil,” “Antisocial,” and the like, they do not provide any mechanical effect
+to encourage players to role-play in any particular way (although many players will do
+so anyway because they closely associate a character’s alignment with his behavior
+patterns).
+
+Since the alignment pattern seeks to vary the effects of actions based on a character’s
+alignment category, it can add a large burden to the game-writer’s shoulders. The set of
+possible alignments essentially spans the entire game and has far-reaching
+consequences. It is likely that a large portion of the skills and gifts contained within a
+game’s text will have alignment-based effects. Each of these effects requires its own
+discussion to clarify the differences. This means that the various skill and gift
+descriptions will be lengthier than if no variable effects existed. You might decide to
+lessen your workload by having relatively few skills with alignment-based effects.
+However, if you do so, you probably should reconsider using the Alignment pattern.
+After all, why complicate your game for something that will only have a minor impact?
+
+==== Implementation Concerns ====
+If you decide to use the Alignment pattern, you need to concern yourself with categories
+to which you are going to assign characters. The whole “Good” versus “Evil”
+alignment concept has been explored by a great many games. So, you may want to
+avoid using these alignment categories in your own games to differentiate it from its
+predecessors.
+
+Note that a game exploring the dangers and moral dilemmas faced by mountain
+climbers might categorize characters as “High Altitude Acclimated,” “Moderate
+Altitude Acclimated,” and “Sea-Level Acclimated.” After all, these are broad
+categories that limit player options and the specific category would define the effects
+that a high-altitude environment would have on a particular character. By spending
+sufficient time at a given altitude, a character may gradually change from one category
+to another. So, it satisfies the pattern in a way that completely strips out all moralistic
+judgment of character behavior.
+
+==== Samples ====
+A game with an alignment system might segment alignments into two aspects:
+Goodness and Sociability. These would be set as Good or Evil and Social or Antisocial.
+Such a system might provide the following definitions:
+
+----
+=== Social ===
+A Social character befriends others through his trustworthy acts. He helps any
+other character in desperate need if possible. Social characters also expect others
+to aid them in their needful times.
+
+=== Antisocial ===
+An Antisocial character uses other party members to suit his needs. He quickly
+picks fights with those standing in his way. Of course, he may act highly social as
+long as it serves his needs.
+
+=== Good ===
+A Good character has mercy on those who ask and deserve it. He serves justice
+and demonstrates kindness to all he meets. Good characters defend townships from
+evil invasions. They save fair princesses from evil wizards. A good character
+would attempt to slay any slavering, vicious, hungry ogre threatening a nearby
+orphanage. Conversely, a Good-aligned character more easily gets help when
+needed. Defending a town from an angry ogre endears a character to those
+townsfolk saved.
+
+=== Evil ===
+An Evil character delights in the misery of others. He strives for personal power
+and allows no sense of mercy or justice to interfere with gaining it. Glory,
+pleasure, power, and wealth are the major aims of an Evil character but his
+methods may seem perfectly innocent on the surface.
+----
+
+Such a game might then restrict characters to certain classes (see the [[:pattern:Class]] pattern)
+based on their alignments. For example:
+
+----
+=== Cult Leader ===
+A Cult Leader is the head of a religious sect. Although some cult members may
+join the leader on their own volition, most are coerced through brainwashing.
+Some cult leaders are actual priests of evil deities while others are just greedy
+bastards trying to make a buck. Interestingly enough, a widespread cult may have
+many leaders which were “promoted” from the brainwashed cult members. Even
+as these cult leaders brainwash others, they fully believe in what they preach.
+
+== Alignment Restrictions ==
+To become a Cult Leader, a character must be //Antisocial// and //Evil//.
+
+== Gifts ==
+Attracting Followers, Beguiling, Imitating Voices, Inciting Riots, Quoting
+Religious Phrases, Sleight of Hand, Throwing Voice
+
+== Skills ==
+Brainwashing (+4), Fast Talking (+3), Interrogating (+2), Inspiring Loyalty (+2),
+Raising Morale (+2), Manufacturing Hallucinogenic Poisons (+1), Torturing (+1)
+----
+
+The game might also include various skills (see the [[:pattern:Skill]] pattern) that have varying
+effects based on alignment. For example, it might contain a magical spell such as the
+following:
+
+----
+=== Shooting Star ===
+Alignment Restrictions: The caster must have a Good alignment.\\
+Affected Area: One creature\\
+Casting Time: 10 seconds\\
+Duration: Instantaneous\\
+Range: 100 feet
+
+Shooting Star creates the spectacular sight of a sparkling ball shooting toward the
+caster’s target. To strike the target, the caster must make an Attack Roll with
+Range Weapon Adjustments. The ball is quite harmless to any Good aligned
+creature. To Evil creatures, however, it represents wrathful vengeance. Any Evil
+creature struck by a Shooting Star sustains 1d8 fire damage per spell level.
+----
+
+Note that the text describing the various alignment categories seems to indicate that
+characters should be role-played in certain ways. However, the alignments are only
+used to identify what career options are available to a character and/or how alignment-
+based influences affect him.
+
+==== Known Uses ====
+[[:game:Dungeons & Dragons v.3.5]] has an alignment system with two aspects, each of which
+can be set to one of three values by the player. The first aspect has the options of
+Lawful, Neutral, and Chaotic while the second aspect has the possibilities of Good,
+Neutral, and Evil. Alignment is used as a prerequisite to attaining certain classes (see
+the [[:pattern:Class]] pattern), has skills whose effects vary based on alignment, and serves as a
+general role-playing guideline for players.
+
+[[:game:RIFTS]] has three alignment categories of Good, Selfish, and Evil, one of which the
+player must choose for his character. In each category there are sub-types. From the
+Good category a player may choose Principled or Scrupulous. From the Selfish
+category, he may select Unprincipled, or Anarchist. From the Evil category, he has the
+options of Miscreant, Aberrant, and Diabolic. The alignment system has no effect on
+the game other than to serve as a general guide on what kinds of actions are appropriate
+when role-playing a character.
+
+[[:game:Rolemaster Fantasy Role Playing]] has 39 different “Personality Traits,” 20 different
+“Motivation Traits,” and 12 different “Alignment Traits.” Players roll randomly to
+determine which Personality, Motivation, and Alignment characteristics their characters
+possess. They then make another roll to determine the extent to which that aspect
+applies. For example, one of the “Alignment Traits” is the Good…Evil characteristic.
+A percentile roll then determines exactly where on that scale the character lies. Other
+than as a general guide for players on how to portray their characters, the alignment
+system does not have any apparent impact on the game.
+
+[[:game:Warhammer Fantasy Role Play]] has five alignments, one of which must be chosen for
+every character. These are Lawful, Good, Neutral, Evil, and Chaotic. Some career
+options are only available to characters with certain alignments. There are no apparent
+differences in how various influences affect characters based on alignment, though.

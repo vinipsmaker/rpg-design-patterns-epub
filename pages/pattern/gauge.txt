@@ -1,0 +1,85 @@
+==== Intent ====
+Provide a concrete way for an abstract concept to have mechanical interactions with a
+game system.
+
+==== Also Known As ====
+Not applicable
+
+==== Related Patterns ====
+[[:pattern:Attribute]], [[:pattern:Currency]], [[:pattern:Resource]], [[:pattern:Skill]], [[:pattern:Trait]]
+
+==== Motivation ====
+Understanding gauges is vital to designing mechanical game systems. A Gauge is a
+graduated value generally associated with a name. Commonly, the graduated values are
+numbers, but this is not always the case. Gauges are introduced into role-playing games
+in order to highlight some key game concept that the designer wants to affect and/or be
+affected by other key game concepts. Gauges are the building blocks of any mechanical
+game system. It is the relationships that a gauge has with other gauges that gives it its
+true meaning within the system. No gauge has any purpose independent of its
+connections to other game entities. In short, no gauge stands alone. What purpose
+would Hit Points have independent of Damage? What value would a Resource have
+without some Consumer on which to spend it? Why possess an Attribute if it affects
+nothing?
+
+==== Applicability ====
+Along with Currency, the Gauge design pattern is probably the most widely used
+pattern of any RPG Design Pattern. Quite often, it is overused. Introducing a Gauge
+into your game makes a statement about what you, as the game designer, feel is
+important to your game. Using too many of them dilutes the impact that any single
+gauge has on your system and thereby detracts from the game’s central concepts. Use a
+Gauge when you
+  - Want to want to emphasize an important game concept,
+  - Want that concept to play a mechanical role in your game,
+  - Have seriously considered not representing that game concept as a gauge,
+  - Having properly pondered, concluded that introducing a gauge brings more of a focus on the game’s core rather than distracts from it.
+
+==== Example Structure ====
+
+{{ :pattern:gauge.png }}
+
+==== Consequences ====
+A Gauge introduces a metered value for what would otherwise be an abstract concept.
+It thereby gives a concrete form to that abstraction, allowing it to manipulate and be
+manipulated by a mechanical game system. A gauge is an artifice, a simulacrum of an
+underlying idea whose purpose is to provide a hook into a game system. It is nothing
+more or less.
+
+Because of their artificial natures, gauges have the potential to distract players from
+their immersion in the game world. The more gauges your game contains, the greater
+the danger of this happening. So, use them where appropriate, but keep them to a
+minimum. The actual number you will use, of course, depends on your design goals.
+High-fidelity games purposely incorporating lots of metaphorical knobs and dials to
+tweak in order to satisfy gamers seeking lots of “crunch” will naturally tend to have
+more gauges than lighter-weight games intended to “fly under the radar” as much as
+possible.
+
+==== Implementation Concerns ====
+As stated before, gauges have meaning only in relation to each other. Most games give
+gauges numerical values and impose arithmetic relationships between them. That is,
+one gauge value is added to or subtracted from another gauge value to generate a third
+gauge value. Diagrams of these kinds of gauge relationship can be found above in
+Figures B and C. But, do not think that addition and subtraction are the only ways
+gauges can affect one another: you do not need to limit yourself in this way. Consider
+these alternatives:
+
+  - One gauge value could be set as the maximum or minimum of two or more other gauges.
+  - Along the same lines, one gauge value can act as a ceiling or floor to another gauge value.
+  - One gauge value can act as a threshold to another gauge value.
+  - One gauge could “spill over” into another gauge value when it “fills up” past a certain value. So, one gauge has a maximum value and anything more added to it cascades into another gauge.
+  - Gauge values can be divided or multiplied together or one can be raised “to the power” of another. (It’s a good idea to stay away from these kinds of combinations for gauges that are calculated “on the fly” during play, though.)
+
+==== Samples ====
+A trait-based game might have players select “Verb” traits and “Noun” traits for their
+characters and give them ranks by spending an allotment of “Trait Points” given to them
+for this purpose. Players have their characters perform actions based on these traits, but
+cannot use any single trait in isolation. Rather, Verbs and Nouns must be used together
+and the rank of the Verb/Noun pair equals the minimum of the ranks of the Verb and
+Noun. So, a player that was playing a baseball player in a game exploring the effects of
+money and drugs on professional sports might give his character a Verb trait of “Resist”
+and a Noun trait of “Steroids” with ranks of 2 and 3 respectively. The “Resist/Steroids”
+trait pair rank would then be the minimum of the two ranks, or 2.
+
+==== Known Uses ====
+The Game Summaries section overflows with gauges applied to various purposes. In
+fact, every single studied game contains gauges of one form or another. If you want to
+explore a minimalist extreme in this regard, take a look at the summary of [[:game:Puppetland]].
