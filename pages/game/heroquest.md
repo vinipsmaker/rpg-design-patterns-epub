@@ -1,0 +1,149 @@
+*HeroQuest* was written by Robin D. Laws and Greg Stafford and is published by
+Issaries, Inc. It is a fantasy game set in the world of Glorantha during the “Hero Wars.”
+Created by Greg Stafford, Glorantha is a rich fantasy world originally conceived in
+1966 before RPG’s even existed. It has evolved over the years attracting many writers
+and gamers in the process. Glorantha was used as the setting for *RuneQuest*, but was
+divorced from that game after Chaosium sold *RuneQuest* to Avalon Hill. (Avalon Hill
+was eventually taken over by TSR, which was sold to Wizards of the Coast along with
+the rights to D&D. WotC was eventually acquired by Hasbro. Needless to say, Hasbro
+decided D&D didn’t need the competition and *RuneQuest* died an unfortunate death.)
+*HeroQuest* actually came much later than Glorantha, is more free-form in its design
+than *RuneQuest*, and is tailored specifically to the world.
+
+### RPG Design Patterns Identified
+
+[:pattern:Conflicted Gauge](/pattern/Conflicted Gauge) (wound traits can be used to aid success in some kinds of conflicts
+even though they are most easily conceptualized as penalties), [:pattern:Currency](/pattern/Currency), [:pattern:Game Master](/pattern/Game Master),
+[:pattern:Negotiated Contest](/pattern/Negotiated Contest), [:pattern:Race](/pattern/Race), [:pattern:Rank](/pattern/Rank), [:pattern:Resource](/pattern/Resource) (“Hero Points”), [:pattern:Template](/pattern/Template), [:pattern:Trait], [[:pattern:Trauma Gauge](/pattern/Trait], [[/pattern/Trauma Gauge)
+
+{{ :game:heroquest.png}}
+
+### Character Makeup
+
+*HeroQuest* characters are almost entirely trait
+based. All characters possess a resource known
+as “Hero Points” that are spent in raising ranks
+in the character’s various traits. It can also be
+expended to improve the outcomes of conflicts
+in the hero’s favor.
+
+All characters do have a “State of Health,”
+though, that follows the Trauma Gauge design pattern. The trait can take on one of the
+following states: “Healthy,” “Hurt,” “Impaired,” “Injured,” “Dying,” or “Dead.”
+However, this is not a strict ranking, because a character can have multiple “Hurts,”
+each of which has a detrimental effect on the character’s capabilities.
+
+The remaining character traits fall into the six categories of “Skills,” “Relationships,”
+“Magical Abilities,” “Personality,” “Followers,” and “Possessions & Wealth.” (To
+avoid confusion, please note that the “Skills” category is really a list of trait abilities and
+does not conform to this book’s definition of the term “skill.”) Characters also have a
+number of “Keywords.” Keywords are especially important in that they convey a
+character’s “Homeland,” “Occupation,” “Magic,” and “Common Magic.” Keywords
+are very broad ranked traits which incorporate everything associated with the culture or
+profession specified. Here we call Keywords “traits” rather than “skills,” even though
+there are pre-defined write-ups of them in the rulebook. Although these write-ups are
+often used directly, they really only comprise an extensive list of examples. That is,
+players are encouraged to create their own as well. So, players either make up their
+own Keywords or select them from a list of examples. (You could rightly claim that
+HQ Keywords fall halfway between this book’s definition of “skill” and “trait.”) Even
+though the Keywords have ranks, they also act as templates, giving lists of suggested
+traits that characters with the keyword should commonly adopt. For example, the
+Occupation of “Hunter” suggests characters take the “Archery,” “Track,” and
+“Wilderness Survival” traits, among others.
+
+Traits are ranked but the ranking scheme is not a simple numeric value. Rather, each
+trait has a numeric value and a “mastery” value. Twenty is the largest numeric value
+allowed. If the rank is increased to 21, it automatically drops to 1 and the mastery value
+associated with the rank increases by 1. Masteries are denoted by the runic symbol ᛗ
+in HeroQuest. So, a rank 13 trait with 2 masteries is denoted as 13 2.
+
+{{ :game:heroquest2.png}}
+
+### Conflict System
+
+Conflicts are handled as
+either “simple contests” or
+“extended contests.” A
+simple contest is one which
+takes only moments to
+resolve and do not
+necessarily deal with the
+primary purpose of the
+campaign. Simple contests
+are handled with a single
+die roll. Extended contests,
+on the other hand, are
+conflicts that take more
+time to resolve. They are
+essentially broken down
+into a number of smaller
+conflicts and commonly
+require several die rolls to determine a victor.
+
+*HeroQuest* uses opposed d20 rolls to determine success in conflicts. Each d20 roll is
+compared to a threshold (determined by the rank of the skill being used by each side).
+If the die roll comes up as a 1, the action succeeds brilliantly. If it comes up greater
+than one but less than the threshold, the character succeeds normally. If the result is
+greater than the target number but less than 20, the action fails. And, finally, if the die
+rolls a 20 the character fails horribly. These four degrees of success and failure are
+labeled “Critical,” “Success,” “Failure,” and “Fumble.”
+
+These degrees of success and failure can be “Bumped” up or down in two ways. First,
+if the character has masteries in the trait being used greater than that of his opponent, he
+can bump the success result up by the difference in masteries. Second, Hero Points can
+be used to bump the result. Either way, a Failure can be bumped up to a Success or a
+Success can be bumped up to a Critical. If a character has masteries “left over” after
+bumping his success up to Critical, he can apply the remaining masteries to bump down
+his opponent’s success.
+
+{{:game:heroquest3.png }}
+The resulting degrees of
+success and failure of both
+sides are compared.
+Depending on the
+difference in these
+outcomes, the overall
+“level of victory” of the
+winner is: “Tied,”
+“Marginal,” “Minor,”
+Major,” or “Complete.”
+
+In extended contests, the
+ongoing success of each
+side is rated in the form of “Advantage Points,” or “APs.” These are initially set based
+on the rank of the trait being applied as the first action of the conflict. The values wax
+and wane as each side makes gains or suffers losses in the contest. Before each roll,
+each side makes an AP bid. Depending on the degree of success of the winner on every
+roll, the AP bid is multiplied by a value. Depending on both sides the degrees of
+success in their rolls, the AP is then either merely subtracted from the loser’s AP or
+actually transferred from the loser to the winner. When either side’s AP total drops to
+zero or less, the contest is over. The end result of the contest depends on the loser’s
+final AP total as determined by a table lookup. For combat, a character’s State of
+Health can be altered to Hurt, Impaired, Injured, or Dying.
+
+{{ :game:heroquest4.png}}
+
+### Turn Order
+
+On the first action of an extended contest, the
+aggressor’s action goes first followed by his
+opponent’s. If the contest is not over (neither
+side’s AP total has dropped to zero or less), a
+new round begins with each person taking his
+turn in a round robin fashion. So, in general,
+the same character takes the first action on each
+round.
+
+{{ :game:heroquest5.png}}
+
+### Reward System
+
+HeroQuest rewards players through the
+distribution of Hero Points. At the start of
+every adventure, each character gains 1 to 5
+points. A long and arduous adventure lasting
+several sessions will earn a character another
+1 to 5 points, depending on the group’s
+overall success and on the quality of role-
+play.
+

@@ -1,0 +1,150 @@
+*Rolemaster Fantasy Role Playing* is published by Iron Crown Enterprises, Inc.
+Rolemaster is considered by many to be the poster child for highly detailed table driven
+combat systems. It is a combat-oriented, Tolkienesque fantasy game with men, elves,
+dwarfs, and halflings. Much of the supplemental material of the first edition was
+heavily focused on Tolkien’s Middle Earth. (Actually, the Middle Earth supplements
+were written for a “Rolemaster-lite” game called *MERP* – *Middle Earth Role Playing* –
+published by the same company. But, the games were so similar that many people used
+the *MERP* supplements for Rolemaster games.) Unfortunately, the Lord of the Rings
+material was eventually dropped. (Rumor has it that this move was primarily due to
+prohibitive royalties demanded by the Tolkien estate for use of the content, but the
+author has seen nothing official verifying this supposition.)
+
+### RPG Design Patterns Identified
+
+[:pattern:Alignment](/pattern/Alignment), [:pattern:Class](/pattern/Class), [:pattern:Game Master](/pattern/Game Master), [:pattern:Hit Points](/pattern/Hit Points), [:pattern:Last Man Standing](/pattern/Last Man Standing), [:pattern:Level](/pattern/Level), [[:pattern:Point Spend
+Attribute]], [:pattern:Generalized Contest](/pattern/Generalized Contest), [:pattern:Race](/pattern/Race), [:pattern:Random Attribute](/pattern/Random Attribute), [:pattern:Rank](/pattern/Rank), [:pattern:Success Reward](/pattern/Success Reward)
+(Experience Points)
+
+{{ :game:rolemaster.png}}
+### Character Makeup
+
+The power of a Rolemaster
+character is gauged as a numeric
+“Level,” which rises as characters
+gain experience points. In
+addition, characters have 10
+attributes (“Stats”): “Agility”
+(Ag), “Constitution” (Co),
+“Memory” (Me), “Reasoning”
+(Re), “Self Discipline” (SD),
+“Empathy” (Em), “Intuition” (In),
+“Presence” (Pr), “Quickness”
+(Qu), and “Strength” (St). These
+range in value from 1 to 101.
+Players initially set these values by
+spending points from a resource
+pool. (The size of the resource
+pool can be determined in various
+ways, but it ends up being around
+660 points.) The amount to which
+these can be raised is limited by
+the character’s “Potential Stats,”
+which have no other function in the game than to indicate how good a character’s
+attributes can possibly become. The attribute values are modified slightly depending on
+the character’s Race (“Common Man,” “High Man,” “Wood Elf,” “Halfling,” etc.).
+
+Characters also have a litany of skills. Each of these has a rank, which is purchased
+through the expenditure of “Development Points,” or “DPs.” The cost of each rank is
+based on the character’s class (“Profession”), such as “Fighter,” “Rogue,” “Cleric,”
+“Magician,” etc. As character’s gain levels, they earn more DPs that they can spend on
+raising the ranks of their various skills. Depending on the skill and class, some skills
+allow a character to only gain a single rank per level. In others, two or even three ranks
+can be purchased. Quite often, the cost to gain a second rank in a particular skill is
+considerably more expensive than the first. Again, these costs depend on both the skill
+in which the character is gaining a rank and the class possessed by the character.
+
+Each skill has a skill bonus. The skill bonus is the sum of a number of modifiers. First
+is the skill category rank bonus, which is derived from the skill rank through the means
+of a table lookup. To this a pertinent attribute is added (depending on the nature of the
+skill) along with a class bonus, if any. Finally, any special adjustments are added. All
+of this work is done during character preparation, so that the overall total is available for
+immediate use during play.
+
+{{ :game:rolemaster2.png}}
+### Conflict System
+
+Rolemaster uses classic
+task resolution.
+Characters attempt
+various actions using
+their skills. All skill
+rolls use percentile dice
+(d100) to generate a
+random number in an
+“open ended” roll. An
+open ended roll is
+performed as follows:
+Roll the d100 and note
+the result. If the rolled
+value fell into the range
+of 95-100, the dice are
+rolled again and the
+results added together.
+If the second roll again comes up in the range of 95-100, the player keeps rolling and
+accumulating greater and greater success until a value less than 95 is rolled and the
+sequence stops. On the other hand, if the initial rolled value fell into the range of 01-05,
+the dice are rolled again in an open ended fashion, but with the results being subtracted
+from the character’s success instead of added.
+
+{{ :game:rolemaster3.png}}
+To perform contests, the player makes an open-ended roll. To the result is added the
+character’s skill bonus along with any situational modifiers. Finally, to this result is
+added another modifier based on the difficulty of the task. For easy tasks, this modifier
+is positive. For difficult tasks, it is
+negative. Once the overall sum is
+obtained, the result is determined
+through a table lookup.
+
+For combat attacks, the “difficulty
+modifier” of any attack attempt is the
+opponent’s “Defensive Bonus,” or
+“DB”. DB indicates how difficult it
+is for an opponent to strike a
+character or monster in combat. It is
+derived from the Quickness attribute
+and is modified by the type of armor
+worn along with any magical
+adjustments. If a weapon strikes, it
+delivers damage that lowers the
+target’s hit points and inflicts other
+effects, such as bleeding and combat
+penalties of various sorts. The effects
+of a successful combat attack actually
+involve two rolls and two table
+lookups. The first is essentially an
+attack roll that determines damage and a criticality factor. The second determines any
+special damage effects based on the criticality factor.
+
+{{ :game:rolemaster4.png}}
+### Turn Order
+
+Each combat round is split up into five
+phases. These phases exist to enable
+players to try to get their actions in
+before those of their opponents (with
+penalties). Conversely, a player may
+also delay his character’s actions in
+order to let him find the best
+opportunity to strike. So, players can
+decide to make “Snap,” “Normal,” or
+“Deliberate” actions.
+
+{{ :game:rolemaster5.png}}
+ 1.  Action Declaration Phase - all players declare what actions they are attempting. The declarations are performed in no particular order.
+ 2.  Initiative Determination Phase – all players roll 2d10 and add their Quickness bonus. This gives them an Initiative value.
+ 3.  Snap Action Phase – resolve all “Snap” actions in the order determined by the Initiative roll. These actions get a penalty.
+ 4.  Normal Action Phase – resolve all “Normal” actions in the order determined by the Initiative roll.
+ 5.  Deliberate Action Phase – resolve all “Deliberate” actions in the order determined by the Initiative roll. These actions gain a bonus.
+
+### Reward System
+
+Characters are awarded experience points for successful actions and for sustaining
+damage. The amount of experience awarded depends on the character’s level and the
+difficulty of the actions and the criticalities of the wounds sustained and delivered. The
+values are determined by, you guessed it, table lookups. Experience points are also
+earned for introducing ideas and concepts that help out on the adventure, for travel in
+unfamiliar territory, and for whatever else the GM decides to reward. When enough
+experience points accumulate, the character gains a level.
+
+{{ :game:rolemaster6.png }}

@@ -1,0 +1,139 @@
+*InSpectres* was written by Jared A Sorensen and is published by Memento Mori
+Theatricks. The game is quite honest about its blatant adoption of ideas from the
+GhostBuster movies. In the game, the characters set up an InSpectres franchise that
+specializes in *“Battling the Forces of Darkness So You Don’t Have To.”* The setting is
+modern day San Francisco with the exception that ghosts and spooks are common,
+everyday pests. The characters (agents) are exterminators.
+
+Stories are strictly structured: A client contacts the franchise to deal with some
+paranormal menace; the agents investigate the problem through interviews and other
+research; the characters beg, borrow, or otherwise acquire the gear needed to defeat the
+bad guys before heading out into the field; the agents wrangle with the nasties,
+defeating them in whatever fashion presents itself; the franchise collects its fee; and the
+characters take a vacation until the next client shows up.
+
+*InSpectres* noticeably lacks any form of Hit Points. Characters simply cannot die from
+their ordeals unless a player decides that his character’s death would be entertaining.
+So, players are free to hose their characters in any variety of comical ways.
+
+One unique concept in *InSpectres* is known as a “Confessional.” This is a point where a
+player has his character talk directly to the other players. Not the other *characters*,
+mind you, the other *players*. It is equivalent to an actor in a movie looking directly to
+the camera and addressing the audience. The Confessional allows a player to
+foreshadow events that he would like to see in upcoming scenes or to introduce new
+information or plot twists that the players, but not necessarily the characters know
+about: “As the crew fled from the cackling banshee down isle four of the FoodMart,
+little did we realize how crucial pickled eggs would be to our salvation.”
+
+### RPG Design Patterns Identified
+
+[:pattern:Attribute](/pattern/Attribute), [:pattern:Dice Pool](/pattern/Dice Pool), [:pattern:Endgame](/pattern/Endgame), [:pattern:Faction](/pattern/Faction) (Heroes vs. spooks), [:pattern:Game Master](/pattern/Game Master), [[:pattern:Narrative
+Reward]], [:pattern:Negotiated Contest](/pattern/Negotiated Contest), [:pattern:Point Spend Gauge](/pattern/Point Spend Gauge), [:pattern:Resource](/pattern/Resource), [:pattern:Shared Gauge](/pattern/Shared Gauge) (“Library
+Card,” “Gym Card,” “Credit Card,” “Bank”), [:pattern:Shared Power](/pattern/Shared Power), [:pattern:Structured Story](/pattern/Structured Story), [:pattern:Traits](/pattern/Traits),
+[:pattern:Trauma Gauge](/pattern/Trauma Gauge) (stress reduces the effectiveness of attributes)
+
+### Character Makeup
+
+*InSpectres* characters have four primary attributes: “Academics,” “Athletics,”
+“Technology,” and “Contact.” “Normal” characters (i.e., humans) are given 9 dice to
+distribute to these four attributes, but all must lie in the range of 1 to 4. “Weird”
+characters (i.e., werewolves, vampires, etc.) are given 10 dice to spend, with each
+attribute value falling into the range of 0 to 10. The game allows only one weird agent
+per game.
+
+There are two additional attributes of “Current Stress” and “Current Cool.” Cool has a
+range of 0 to 3 for “Normal” characters, but is unlimited for “Weird” characters.
+
+{{ :game:inspectres.png}}
+Each “Normal” character is given a unique trait
+(“Talent”) by his player that makes him special.
+These can be as wide ranging as “Airplane
+Mechanic,” “Baseball Card Collector,” “Trivial
+Pursuit guru,” “Green Beret,” or “Dr. Who Fan.”
+“Weird” characters lack this benefit. They do,
+however, get “Powers.” (A vampire might be able
+to turn into a bat, for example.)
+
+One other very important aspect of the character
+makeup is not actually part of the character at all.
+The InSpectres franchise has its own attributes that
+are shared among all of the franchise members.
+These are: Library Card, Gym Card, and Credit Card. These can be used by any of the
+franchise members to augment rolls dealing with Academics, Athletics, and
+Technology, respectively. Beginning franchises start with 5 dice to distribute among
+the three cards. Any leftovers go into the Bank attribute. Dice in the bank can be used
+to augment any roll, but are sometimes inaccessible.
+
+Franchise cards are really the only attributes in the game that improve with time. As the
+franchise prospers, all of its agents prosper along with it. As the franchise wanes, so too
+do its employees.
+
+{{ :game:inspectres2.png}}
+### Conflict System
+
+All conflicts use a number of d6s equal to the
+value of whatever attribute is most pertinent.
+So, if the conflict requires physical exertion, a
+character’s Athletics attribute would most
+likely be the pertinent score. The dice are
+rolled and the highest single number rolled on
+any dice is used in a table lookup to determine
+the outcome. In general, the higher the
+outcome, the more control the player has over
+describing the outcome. Low rolls give the
+game master narrative control. If the highest
+number is a 5 or 6, the group earns franchise
+dice, which pushes the story closer to the
+endgame. Also, note that the conflict roll does
+not pit the player characters’ skills against
+those of the monsters. Monster capabilities
+don’t really enter into the picture in any
+mechanical way.
+
+The conflict roll can be augmented with dice
+from the Bank or from the franchise cards,
+whichever is pertinent to the task at hand. These dice are “spent.” But, depending on
+the roll of the actual Bank dice (which are distinguished by a different color), you may
+actually get the dice back, lose an additional die, lose all of the remaining dice in the
+Bank, or even earn more dice to add to the Bank. The result is determined by a table
+lookup.
+
+Characters can assist one another in conflicts. To do so, they must first state that they
+are assisting a comrade prior to rolling any dice for their own actions. Once the dice are
+rolled, the assisting player must hand over one of the dice he rolled to the player he is
+helping.
+
+{{ :game:inspectres3.png}}
+Anytime the game master deems it appropriate, he can call
+for a “Stress Roll.” This is a special kind of conflict roll
+where the player rolls a number of d6, takes the lowest
+number, and performs a table lookup to determine the
+mechanical effects. Cool points mitigate the effects of stress.
+For every point of Cool, a character ignores one dice in any
+Stress Roll after the dice are rolled. So, a character with 2
+points of Cool only has to consider the “best” die in any 3
+dice Stress Roll. Franchise cards and other players are
+unable to assist Stress Rolls. Possible outcomes include
+gaining a point of Cool, suffering penalties on future conflict rolls, or losing points from
+various attributes. The causes of these mechanical effects are up to the players
+themselves. Lost trait points are regained at the end of each mission (when the
+character takes a vacation) or by spending Cool points.
+
+### Turn Order
+
+*InSpectres* has no explicit rules governing the order in which players take turns. The
+conflict resolution system is set up in such a way that this isn’t really necessary. A high
+conflict roll allows the player to describe what he’d like to see while a low roll indicates
+the game master gets that pleasure.
+
+### Reward System
+
+The game rewards players with “Franchise Dice,” which also works as an Endgame
+mechanic. At the beginning of every mission, the game master decides on how many
+franchise dice the story is worth. (The rulebook provides guidelines on what is
+reasonable.) Throughout the adventure, players earn these franchise dice through
+conflict rolls. When the pre-specified number of franchise dice has been earned, the
+game master declares victory and gives the dice to the franchise. Franchise dice
+augment the group’s Library Card, Gym Card, Credit Card, and Bank attributes. The
+episode ends with the characters taking a well-earned vacation.
+

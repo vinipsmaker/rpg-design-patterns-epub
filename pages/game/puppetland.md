@@ -1,0 +1,82 @@
+John Tynes authored *Puppetland* and Hogshead Publishing distributes it. In this game,
+all of the players portray puppets in a world fashioned by the Puppet Maker.
+Unfortunately, the puppet Punch murdered the Puppet Maker and thus because the
+primary villain of the game. Punch has a number of minions, known as “Punch’s
+Boys,” which he fashioned from the flesh of the dead Puppet Maker. Punch also has an
+army of nutcracker soldiers. He tyrannically rules most of Puppetland without
+compassion or mercy. The game encourages the players to overthrow Punch and, if
+possible, restore the kindly Puppet Maker to life.
+
+The world contains a number of fairy tale attractions. First, most puppets live in
+Puppettown, which Punch’s castle overlooks. The Lake of Milk and Cookies borders
+Puppettown. True to its name, this lake contains eternally yummy milk in which
+cookies float like icebergs. Across the lake from Puppettown lies Respite, a small
+village founded by Judy, a kindly female marionette who was Punch’s one time lover
+but is now his arch enemy. Puppets fleeing Punch’s wrath congregate here.
+
+The game world follows the rules of puppet physics. That is, events take place purely
+for dramatic purpose rather than as any kind of attempt to simulate “reality.” There are
+no tables, no dice rolls, and no numbers to compare. If one puppet stabs another puppet
+with a sword, the second puppet falls to the ground. At the end of each hour-long
+session, all puppets in Puppetland wake up safe and snug in their beds fully mended,
+even those recently stabbed or otherwise mutilated. The only exception to this rule is
+that puppets that have lost all of their “puzzle pieces” do not waken. Puppets start out
+with 16 puzzle pieces and lose one whenever injured or if they attempt an action their
+description says they cannot do (such as pick something up when they have no hands).
+Once lost, puzzle pieces never return.
+
+### RPG Design Patterns Identified
+
+[:pattern:Class](/pattern/Class) (various puppet types), [:pattern:Diceless](/pattern/Diceless), [:pattern:Drama Based Initiative](/pattern/Drama Based Initiative), [:pattern:Faction](/pattern/Faction) (Punch’s Boys
+vs. everyone else), [:pattern:Flaw](/pattern/Flaw), [:pattern:Game Master](/pattern/Game Master), [:pattern:Gift](/pattern/Gift), [:pattern:Hit Points](/pattern/Hit Points) (“puzzle pieces”), [[:pattern:Negotiated
+Contest]], [:pattern:Trait](/pattern/Trait)
+
+### Character Makeup
+
+{{ :game:puppetland.png}}
+Characters can be Finger Puppets, Hand Puppets, Shadow
+Puppets, or Marionette Puppets. The game recommends
+having at least one of each type in a group. The various
+puppet types have different strengths and weaknesses.
+Finger puppets lack hands, so they cannot grab things.
+However, their tiny stature makes them quick, so they can
+dodge aside when things are thrown at them. Shadow
+puppets disappear when they stand sideways due to their
+extreme thinness. The big, strong, and slow marionettes
+can pick things up and throw them, but cannot dodge. So, each of these puppet types
+has specific flaws and gifts categorized under the headings of “This puppet is,” “This
+puppet can,” and “This puppet can not.”
+
+After choosing the puppet type, the player must decide on three traits about the puppet
+for each of the gift and flaw categories. These can be anything the game master agrees
+to and are commonly such things as “very clever,” “do magic tricks,” “can’t tell a lie,”
+etc.
+
+{{ :game:puppetland2.png}}
+### Conflict System
+
+The decision of who wins a
+conflict is entirely on the
+game master’s shoulders.
+He makes choices based on
+what he feels is most
+dramatically appropriate to
+the story. A character’s
+flaws and gifts ordinarily
+weigh heavily into these
+judgments.
+
+### Turn Order
+
+Action order is, once again, based purely on the dramatic effect it has on the storyline
+and is decided upon by the game master.
+
+### Reward System
+
+Lacking virtually all mechanics, *Puppetland* essentially has no mechanical reward
+system. Its hit point system, involving the puppets’ puzzle pieces, is about the closest
+thing that it has. Puppets don’t want to take damage, since it is permanent and always
+brings a puppet closer to his “death.” So, avoiding damage is rewarded by virtue of the
+fact that the puppet didn’t take any.
+
+

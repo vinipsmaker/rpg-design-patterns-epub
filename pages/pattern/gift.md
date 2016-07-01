@@ -1,0 +1,120 @@
+### Intent
+
+Provide a means for players to customize their characters with specialized, well-
+documented abilities that do not improve in effectiveness as play progresses.
+
+### Also Known As
+
+Feats, Talents
+
+### Related Patterns
+
+[:pattern:Class](/pattern/Class), [:pattern:Skill](/pattern/Skill), [:pattern:Trait](/pattern/Trait)
+
+### Motivation
+
+Most role-playing games allow players to customize their characters with new abilities.
+Sometimes, it makes sense to allow those abilities to improve over time. In other cases,
+it makes more sense to simply bestow an ability upon a character as a well-defined
+“gift” and forego any possible advancement in it. There are a few reasons why this
+might be done.
+
+Some gifts allow a game designer to explicitly handle situations that are likely to arise,
+but are not a central focus of the game. For example, a game may be set in a world
+where literacy is far from universal. However, the game designer does not want to
+require players to deal with the bookkeeping work of a full-blown “Reading” skill. In
+his viewpoint, knowing whether a character can read is important because it may have
+social implications, but trying to deal with the minutiae of what 1st vs. 5th rank in the
+skill of “Reading” means is beyond the level of detail needed by the game. On the other
+hand, a game set on a university campus may have need for that level of detail. (In such
+a case, the Rank pattern may be more appropriate.)
+
+In other cases, it just doesn’t make conceptual sense for an ability to increase as time
+passes. For example, if the ability of “night vision” is bestowed on a character for
+choosing a cave-dwelling race, then the game designer may decide that there is no
+justification for a character to improve in that area after the gift is bestowed.
+
+In still other cases, a gift might be used as a sort of “toggle switch” to turn on other,
+related abilities allowed by a game. For example, a character may have the skill
+“Armor Smithing,” which allows him to craft ring armor at 3`<sub>`rd`</sup>` rank, mail armor at 5`<sup>`th`</sup>`
+rank, plate armor at 8`<sup>`th`</sup>` rank, etc. However, he cannot craft *magical* armor or the
+corresponding type unless he obtains the gift of “Crafting Magical Armor.”
+Presumably, going through the effort and cost of obtaining this gift would open up a
+whole realm of armor crafting possibilities that a character otherwise would not have.
+
+### Applicability
+
+Use the Gift pattern when you want to
+ 1.  Allow players to differentiate the abilities of their characters from others in their group,
+ 2.  Keep those abilities from improving as play progresses,
+ 3.  Provide detailed descriptions of what each of those abilities accomplishes. 
+
+Goal 1 can be satisfied by the Trait pattern. It would be trivial to modify the Trait
+pattern to keep some traits from improving as play progresses as well, thus satisfying
+goal 2. So, if detailed write-ups of character “gifts” are something you want to avoid,
+you should consider using the Trait pattern instead.
+
+If you would prefer an ability to increase in effectiveness as play continues, you should
+consider using the Level, Skill, or Rank patterns instead.
+
+### Consequences
+
+The Gift pattern is often used in conjunction with the Skills pattern. Like the Skills
+pattern, Gifts place a significant burden on a game writer’s shoulders, in that they
+require detailed write-ups of the various abilities presented as options. Gifts are one
+way in which a “rules-light” game becomes “rules-heavy” (which is not necessarily a
+bad thing). On the other hand, gifts provide a powerful way for a game designer to
+direct play toward the kinds of scenarios he envisions his game to be about. If well
+written, gift descriptions can answer most questions that will arise in game play
+concerning the ability, thus avoiding debate about trivial details during play. All of this
+costs a certain amount of flexibility, though. Some players find skills and gifts based
+games to be confining regardless of how many gifts are offered as options.
+
+### Implementation Concerns
+
+You will need to decide when, how many, and what kinds of gifts a character can gain.
+One possible way would be to create some kind of resource that a player can “spend” to
+purchase gifts (see the Resource pattern). Another might be that gifts are bestowed by
+race, one of which a player must choose for his character initially. A third option is that
+gifts are bestowed by classes (see the Class and Class Tree patterns) which are
+themselves limited by some means.
+
+In writing up your gift descriptions, you will need to be careful to temper your
+enthusiasm for creating “kewl powers.” Gifts can be used effectively to augment a
+game, but can just as easily upset game balance if you do not maintain some amount of
+consistency from one description to the next. One way to allow gifts of varying
+effectiveness without upsetting the integrity of your game is to have the more effective
+gifts cost more (see the Resource pattern).
+
+### Samples
+
+A game might specify a “Ciphering” gift in the following way:
+
+----
+#### Ciphering
+
+Gift Cost: 1 Character Point\\
+Ciphering enables a character to perform simple arithmetic. He understands the
+basic concepts of numbers, tables, and charts. Of course, almost any character
+can keep track of numbers under 20. Nevertheless, a character with this talent
+need not stop after he runs out of fingers and toes. He easily deals with addition
+and subtraction and can multiply and divide with difficulty.
+----
+
+### Known Uses
+
+[:game:Dungeons & Dragons v.3.5](/game/Dungeons & Dragons v.3.5) has a list of 109 “Feats” such as “Brew Potion,” “Dodge,”
+and “Quick Draw.” Feats are bestowed both at the time the character is initially created
+and as the character advances in levels (see the Level pattern).
+
+[:game:HERO System 5th Edition](/game/HERO System 5th Edition) has a list of 18 “Talents” such as “Ambidexterity” and
+“Eidetic Memory.” Talents are purchased through the expenditure of “Character
+Points,” which is a resource spent by players in designing their characters.
+
+[:game:Warhammer Fantasy Role Play](/game/Warhammer Fantasy Role Play) has a list of 133 “skills” such as “Gamble,” “Pick
+Lock,” and “Spot Traps.” These “skills” actually match the Gifts pattern because they
+do not change in effectiveness as play progresses. These gifts are bestowed upon
+characters as they gain new “professions” (see the [:pattern:Class](/pattern/Class) pattern) throughout their
+careers.
+
+

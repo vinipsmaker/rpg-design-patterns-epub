@@ -1,0 +1,106 @@
+*My Life with Master* was written by Paul Czege and is published by Half Meme Press.
+In it, players portray potent but psychologically dependant minions of twisted masters
+who send them off to perform any number of inhuman tasks. Not only do the players
+design their characters, they also collectively design their master. The more the
+minions serve their master’s diabolical interests, the more the minions hate themselves.
+Their increasing self-loathing makes them more and more capable of carrying out their
+master’s orders, but at the same time strengthens their master’s psychological grip on
+their psyches. A minion’s only link to his human roots are his “Connections,” which
+are people in town whom the minion cares about and visits on side trips whenever the
+master sends him out. The more a minion visits his Connections, the more Love he
+accumulates, which helps the minion resist the master’s powerful hold. The goal of the
+game is for the minions to finally resist and kill their master.
+
+### RPG Design Patterns Identified
+
+[:pattern:Attribute](/pattern/Attribute), [:pattern:Conflicted Gauge](/pattern/Conflicted Gauge) (“Fear,” “Reason,” “Self Loathing”), [:pattern:Dice Pool](/pattern/Dice Pool), [:pattern:Endgame](/pattern/Endgame),
+[:pattern:Flaw](/pattern/Flaw) (“Less than Human”), [:pattern:Game Master](/pattern/Game Master), [:pattern:Gift](/pattern/Gift) (“More than Human”), [:pattern:Idiom](/pattern/Idiom) (“Love”),
+[:pattern:Narrative Reward](/pattern/Narrative Reward) (“Intimacy”/“Desperation”/ “Sincerity”), [:pattern:Negotiated Contest](/pattern/Negotiated Contest) (which
+is very coarse grained – one roll per scene), [:pattern:Safety Valve](/pattern/Safety Valve), [:pattern:Shared Gauge](/pattern/Shared Gauge) (“Fear” and
+“Reason”), [:pattern:Structured Story](/pattern/Structured Story), [:pattern:Trait](/pattern/Trait) (More than Human/Less than Human), [[:pattern:Trauma
+Gauge]] (“Weariness”)
+
+### Character Makeup
+
+The player characters, or minions, of //My Life with
+Master// have three numeric attributes of Self-
+Loathing, Weariness, and Love. The evil master
+has the single attribute of Fear and the
+townspeople collectively have the attribute of
+Reason.
+
+{{ :game:my-life-with-master.png}}
+Minions also have More than Human and Less
+than Human traits. These are characteristics or
+abilities that indicate the situations in which the
+minion cannot fail or cannot succeed. For
+example, if a minion has a More than Human trait
+of “Has super strength except when he hasn’t eaten for 24 hours,” then any test of
+strength will automatically succeed unless he has fasted for a day. Similarly, if his Less
+than Human trait reads “Is clumsy unless pursuing food,” any test of grace or agility
+will always fail unless he is searching for a meal.
+
+Finally, minions have Connections, which are relationship traits the character has with
+individual townsfolk. The sum of the ranks in these traits gives the minion’s overall
+Love value. As minions visit their connections, they gain Love which helps them to
+break their master’s psychological hold over them.
+
+{{ :game:my-life-with-master2.png }}
+
+### Conflict System
+
+The five attributes of Self-Loathing, Weariness, Love, Fear, and Reason are used in
+various combinations to resolve conflicts. For example, to resist the master’s orders,
+the minion must roll Love minus Weariness against his master’s roll of Fear plus Self-
+Loathing (this is actually the minion’s Self-Loathing as the master only has a Fear
+attribute). On the other hand, to carry out some violent order of his master, the minion
+must roll Fear plus Self-Loathing against his opponent’s roll of Reason plus Weariness.
+The various formulae are hard to remember (as least for me), but they do follow a sort
+of horror movie logic if you study them carefully.
+
+To resolve the conflicts, dice pools are used. These are made up mostly of d4s whose
+number is determined by the formulae previously mentioned. But, an additional die
+may be added through role-play as a form of Narrative Reward. Only one additional die
+may be awarded by the Game Master on any conflict. It is earned by role-playing
+Intimacy, Desperation, or Sincerity. An extra d4 can be earned through intimacy, which
+essentially boils down to sitting down and having a glass of wine or meal with your
+opponent, giving gifts, or other similarly endearing actions. A d6 can be earned through
+desperation, which involves the character begging or pleading his case with extreme
+emotion. A d8 is earned through sincerity, the demonstration of real concern for the
+opponent. Concerning sincerity, the game text says, “you’ll know it when you see it.”
+The master is incapable of sincerity, so the players can always trump the master in this
+regard.
+
+Once the dice pools are gathered, both sides roll the dice and sum the results.
+Excluding the narrative reward die, any rolls of 4 count as zero. The higher overall total
+wins the entire conflict and gets to narrate the outcome. So, there is only one contest
+roll per scene.
+
+The fact that different formulas are used for different kinds of conflicts complicates the
+diagrams used to illustrate the conflict resolution system. Ordinarily, we could just
+stick a gauge labeled “Pertinent Attribute” into one or two diagrams to simplify things,
+because most games use their attributes in a similar fashion throughout. But, //My Life
+with Master// does not. So, we actually need five diagrams to illustrate the conflict
+resolution system: one for each type of conflict that can arise in the game.
+
+### Turn Order
+
+Given that conflicts are completely resolved through a single roll, there are no rules for
+initiative or action order within a scene, nor do there need to be. There is a pre-
+determined ordering to the scenes, though (see the Structured Story design pattern),
+which dictates when players contribute and the general nature of the scenes.
+
+### Reward System
+
+Whenever a minion makes an overture to a connection, he gains a point of Love,
+whether he succeeds in his contest roll or not. If he fails, he also gains a point of Self-Loathing. Self-Loathing is also raised whenever the minion successfully enacts a
+violent or villainous act in service to his master. Since Self-Loathing is conflicted, with
+higher values making it harder for the minion to resist his master’s orders, the raising of
+its value cannot truly be considered a reward. From the perspective of achieving the
+endgame, it is actually a punishment.
+
+The only other rewards in the game are the narrative rewards given for role-playing
+Intimacy, Desperation, and Sincerity. These final rewards are perhaps the most
+important to game play, however, because they represent the only real control a player
+has over the success or failure of any given conflict.
+
