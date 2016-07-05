@@ -1,0 +1,12 @@
+---
+title: Design Patterns of Successful Role-Playing Games
+creator:
+- role: author
+  text: Whitson John Kirk III
+- role: editor
+  text: Michael R. Cantrell
+rights: Copyright © 2006 by Whitson John Kirk III. Some rights reserved. If you make changes, add your name to the Contributor’s section on the cover. Please do not alter the Dedication, Forward, or Acknowledgements sections.
+language: en-US
+date: 2009-09-13
+cover-image: cover.svg
+...
